@@ -1,0 +1,4 @@
+fold,held_out_session,seed,best_epoch,completed_epochs,best_validation_reconstruction_loss,checkpoint
+S1,2025-08-07,131,169,175,71927.82446473552,experiments/session_held_out_beta_vae/run_20260922_094603/S1/vae/checkpoints/best_beta_vae.pt
+S2,2025-08-22,131,157,175,75963.16167763158,experiments/session_held_out_beta_vae/run_20260922_094603/S2/vae/checkpoints/best_beta_vae.pt
+S3,2025-09-05,131,175,175,71608.75625,experiments/session_held_out_beta_vae/run_20260922_094603/S3/vae/checkpoints/best_beta_vae.pt

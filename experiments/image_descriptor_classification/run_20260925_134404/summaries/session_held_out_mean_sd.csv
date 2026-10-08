@@ -1,0 +1,7 @@
+configuration,algorithm,metric,mean,sample_sd,mean_sd
+morphology_color_texture,rbf_svm,accuracy,0.5349424798619823,0.01995230628789385,0.5349 +/- 0.0200
+morphology_color_texture,rbf_svm,balanced_accuracy,0.5413120748420895,0.04950187602883291,0.5413 +/- 0.0495
+morphology_color_texture,rbf_svm,macro_f1,0.5064975916671436,0.040129448812301224,0.5065 +/- 0.0401
+morphology_color_texture,random_forest,accuracy,0.612071601539596,0.03532799317961804,0.6121 +/- 0.0353
+morphology_color_texture,random_forest,balanced_accuracy,0.59267507953982,0.10181759044046881,0.5927 +/- 0.1018
+morphology_color_texture,random_forest,macro_f1,0.5663792467250934,0.0711530867829986,0.5664 +/- 0.0712

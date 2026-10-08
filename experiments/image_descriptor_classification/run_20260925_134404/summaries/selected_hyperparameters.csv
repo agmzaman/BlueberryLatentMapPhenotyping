@@ -1,0 +1,9 @@
+run,held_out_session,configuration,feature_count,algorithm,selected_parameters
+stratified_random,,morphology_color_texture,22,rbf_svm,"{""C"": 1000.0, ""gamma"": 0.01}"
+stratified_random,,morphology_color_texture,22,random_forest,"{""n_estimators"": 300, ""max_depth"": null, ""min_samples_leaf"": 1, ""max_features"": ""sqrt""}"
+S1,2025-08-07,morphology_color_texture,22,rbf_svm,"{""C"": 10.0, ""gamma"": ""scale""}"
+S1,2025-08-07,morphology_color_texture,22,random_forest,"{""n_estimators"": 300, ""max_depth"": 10, ""min_samples_leaf"": 2, ""max_features"": 0.5}"
+S2,2025-08-22,morphology_color_texture,22,rbf_svm,"{""C"": 10.0, ""gamma"": ""scale""}"
+S2,2025-08-22,morphology_color_texture,22,random_forest,"{""n_estimators"": 300, ""max_depth"": 10, ""min_samples_leaf"": 2, ""max_features"": 0.5}"
+S3,2025-09-05,morphology_color_texture,22,rbf_svm,"{""C"": 100.0, ""gamma"": ""scale""}"
+S3,2025-09-05,morphology_color_texture,22,random_forest,"{""n_estimators"": 300, ""max_depth"": 20, ""min_samples_leaf"": 1, ""max_features"": ""sqrt""}"

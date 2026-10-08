@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+type: software
+title: "BlueberryLatentMapPhenotyping: Spatial beta-VAE latent-map descriptors for blueberry canopy-size phenotyping"
+message: "If you use this software in your research, please cite this release and the associated article."
+authors:
+    - given-names: A. G. M.
+      family-names: Zaman
+      orcid: 'https://orcid.org/0000-0001-5227-700X'
+    - given-names: Kallol
+      family-names: Roy
+      orcid: 'https://orcid.org/0000-0002-6557-2689'
+    - given-names: Jüri
+      family-names: Olt
+      orcid: 'https://orcid.org/0000-0003-4302-3176'
+
+repository-code: 'https://github.com/agmzaman/BlueberryLatentMapPhenotyping'
+license: MIT
+version: '1.1.0'
+date-released: '2026-10-08'

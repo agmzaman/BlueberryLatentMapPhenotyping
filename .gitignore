@@ -1,0 +1,46 @@
+# Ignore files unless explicitly included below
+*
+!*/
+
+# Exclude the backup of old Git history
+/.git_backup/
+
+# Project files
+!/.gitignore
+!/README.md
+!/CITATION.cff
+!/LICENSE
+!/requirements.txt
+!/scripts/*.py
+!/src/**/*.py
+
+# Shared configurations
+!/configs/config.example.yaml
+!/configs/image_descriptor.yaml
+!/configs/polygon_sensitivity.yaml
+
+# Dataset splits and checks
+!/data/splits/*.csv
+!/data/session_held_out_splits/**/*.csv
+
+# Experiment results, saved settings and logs
+!/experiments/**/*.csv
+!/experiments/**/*.json
+!/experiments/**/config_used.yaml
+!/experiments/**/current_run.txt
+!/experiments/**/logs/*.txt
+!/experiments/**/logs/*.log
+!/experiments/polygon_annotation_sensitivity/*.txt
+
+# PDF figures and their numerical results
+!/experiments/**/figures/**/*.pdf
+!/experiments/**/reports/classifier_ablation_comparison.pdf
+!/figures/**/*.pdf
+!/figures/**/*.csv
+!/figures/**/*.json
+
+# Exclude individual control runs and feature banks
+/experiments/**/controls/seed_robustness/seed_*/
+/experiments/**/controls/shuffled_labels/shuffle_*/
+/experiments/**/features/*_features.csv
+/experiments/**/features/image_descriptors.csv

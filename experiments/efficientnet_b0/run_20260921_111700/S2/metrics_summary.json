@@ -1,0 +1,31 @@
+{
+  "run": "S2",
+  "held_out_session": "2025-08-22",
+  "seed": 313,
+  "best_epoch": 9,
+  "epochs_trained": 19,
+  "best_validation_loss": 0.3567355632781982,
+  "metrics": {
+    "train": {
+      "loss": 0.040693437646108645,
+      "samples": 1134,
+      "accuracy": 0.9964726631393298,
+      "balanced_accuracy": 0.9969230769230769,
+      "macro_f1": 0.997057881734092
+    },
+    "validation": {
+      "loss": 0.3567355632781982,
+      "samples": 380,
+      "accuracy": 0.8552631578947368,
+      "balanced_accuracy": 0.8737205978564783,
+      "macro_f1": 0.8777513460018245
+    },
+    "test": {
+      "loss": 0.49192302844474806,
+      "samples": 529,
+      "accuracy": 0.8204158790170132,
+      "balanced_accuracy": 0.8191867607862735,
+      "macro_f1": 0.8324288029902657
+    }
+  }
+}

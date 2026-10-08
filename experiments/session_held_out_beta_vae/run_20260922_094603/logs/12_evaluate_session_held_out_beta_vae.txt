@@ -1,0 +1,18 @@
+Experiment: experiments/session_held_out_beta_vae/run_20260922_094603
+
+Evaluating beta-VAE run: S1
+train: SSIM=0.648119, MS-SSIM=0.891147
+validation: SSIM=0.650769, MS-SSIM=0.891179
+test: SSIM=0.663510, MS-SSIM=0.894273
+
+Evaluating beta-VAE run: S2
+train: SSIM=0.650559, MS-SSIM=0.895742
+validation: SSIM=0.649813, MS-SSIM=0.894691
+test: SSIM=0.663883, MS-SSIM=0.887422
+
+Evaluating beta-VAE run: S3
+train: SSIM=0.654932, MS-SSIM=0.889430
+validation: SSIM=0.641704, MS-SSIM=0.884538
+test: SSIM=0.615189, MS-SSIM=0.881779
+Saved reconstruction summary: experiments/session_held_out_beta_vae/run_20260922_094603/reconstruction_summary.csv
+Session-held-out reconstruction evaluation completed.

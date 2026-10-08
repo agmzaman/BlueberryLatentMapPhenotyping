@@ -1,0 +1,263 @@
+Experiment: experiments/image_descriptor_classification/run_20260925_134404
+
+Preparing independent descriptor run: stratified_random
+Configuration morphology_color_texture: 22 descriptors.
+Selecting and training rbf_svm.
+rbf_svm candidate 01/36 | validation_macro_f1=0.1468
+rbf_svm candidate 02/36 | validation_macro_f1=0.1468
+rbf_svm candidate 03/36 | validation_macro_f1=0.1468
+rbf_svm candidate 04/36 | validation_macro_f1=0.1468
+rbf_svm candidate 05/36 | validation_macro_f1=0.1468
+rbf_svm candidate 06/36 | validation_macro_f1=0.1468
+rbf_svm candidate 07/36 | validation_macro_f1=0.4748
+rbf_svm candidate 08/36 | validation_macro_f1=0.1468
+rbf_svm candidate 09/36 | validation_macro_f1=0.1468
+rbf_svm candidate 10/36 | validation_macro_f1=0.2028
+rbf_svm candidate 11/36 | validation_macro_f1=0.5182
+rbf_svm candidate 12/36 | validation_macro_f1=0.1468
+rbf_svm candidate 13/36 | validation_macro_f1=0.7451
+rbf_svm candidate 14/36 | validation_macro_f1=0.1468
+rbf_svm candidate 15/36 | validation_macro_f1=0.2467
+rbf_svm candidate 16/36 | validation_macro_f1=0.7018
+rbf_svm candidate 17/36 | validation_macro_f1=0.7488
+rbf_svm candidate 18/36 | validation_macro_f1=0.3771
+rbf_svm candidate 19/36 | validation_macro_f1=0.7567
+rbf_svm candidate 20/36 | validation_macro_f1=0.2439
+rbf_svm candidate 21/36 | validation_macro_f1=0.6848
+rbf_svm candidate 22/36 | validation_macro_f1=0.7517
+rbf_svm candidate 23/36 | validation_macro_f1=0.7526
+rbf_svm candidate 24/36 | validation_macro_f1=0.4435
+rbf_svm candidate 25/36 | validation_macro_f1=0.7591
+rbf_svm candidate 26/36 | validation_macro_f1=0.6662
+rbf_svm candidate 27/36 | validation_macro_f1=0.7357
+rbf_svm candidate 28/36 | validation_macro_f1=0.7580
+rbf_svm candidate 29/36 | validation_macro_f1=0.7422
+rbf_svm candidate 30/36 | validation_macro_f1=0.4435
+rbf_svm candidate 31/36 | validation_macro_f1=0.7285
+rbf_svm candidate 32/36 | validation_macro_f1=0.7144
+rbf_svm candidate 33/36 | validation_macro_f1=0.7692
+rbf_svm candidate 34/36 | validation_macro_f1=0.7704
+rbf_svm candidate 35/36 | validation_macro_f1=0.7123
+rbf_svm candidate 36/36 | validation_macro_f1=0.4435
+Selected rbf_svm parameters: {'C': 1000.0, 'gamma': 0.01}
+Completed stratified_random morphology_color_texture rbf_svm: test_accuracy=0.7066, test_macro_f1=0.7467
+Metrics: experiments/image_descriptor_classification/run_20260925_134404/stratified_random/rbf_svm/morphology_color_texture/metrics_summary.json
+Selecting and training random_forest.
+random_forest candidate 01/18 | validation_macro_f1=0.7686
+random_forest candidate 02/18 | validation_macro_f1=0.7641
+random_forest candidate 03/18 | validation_macro_f1=0.7614
+random_forest candidate 04/18 | validation_macro_f1=0.7631
+random_forest candidate 05/18 | validation_macro_f1=0.7448
+random_forest candidate 06/18 | validation_macro_f1=0.7586
+random_forest candidate 07/18 | validation_macro_f1=0.7519
+random_forest candidate 08/18 | validation_macro_f1=0.7485
+random_forest candidate 09/18 | validation_macro_f1=0.7548
+random_forest candidate 10/18 | validation_macro_f1=0.7488
+random_forest candidate 11/18 | validation_macro_f1=0.7368
+random_forest candidate 12/18 | validation_macro_f1=0.7451
+random_forest candidate 13/18 | validation_macro_f1=0.7668
+random_forest candidate 14/18 | validation_macro_f1=0.7652
+random_forest candidate 15/18 | validation_macro_f1=0.7557
+random_forest candidate 16/18 | validation_macro_f1=0.7597
+random_forest candidate 17/18 | validation_macro_f1=0.7432
+random_forest candidate 18/18 | validation_macro_f1=0.7586
+Selected random_forest parameters: {'n_estimators': 300, 'max_depth': None, 'min_samples_leaf': 1, 'max_features': 'sqrt'}
+Completed stratified_random morphology_color_texture random_forest: test_accuracy=0.7139, test_macro_f1=0.7514
+Metrics: experiments/image_descriptor_classification/run_20260925_134404/stratified_random/random_forest/morphology_color_texture/metrics_summary.json
+
+Preparing independent descriptor run: S1
+Configuration morphology_color_texture: 22 descriptors.
+Selecting and training rbf_svm.
+rbf_svm candidate 01/36 | validation_macro_f1=0.1505
+rbf_svm candidate 02/36 | validation_macro_f1=0.1505
+rbf_svm candidate 03/36 | validation_macro_f1=0.1505
+rbf_svm candidate 04/36 | validation_macro_f1=0.1505
+rbf_svm candidate 05/36 | validation_macro_f1=0.1505
+rbf_svm candidate 06/36 | validation_macro_f1=0.1505
+rbf_svm candidate 07/36 | validation_macro_f1=0.3315
+rbf_svm candidate 08/36 | validation_macro_f1=0.1505
+rbf_svm candidate 09/36 | validation_macro_f1=0.1505
+rbf_svm candidate 10/36 | validation_macro_f1=0.2589
+rbf_svm candidate 11/36 | validation_macro_f1=0.3887
+rbf_svm candidate 12/36 | validation_macro_f1=0.1505
+rbf_svm candidate 13/36 | validation_macro_f1=0.7563
+rbf_svm candidate 14/36 | validation_macro_f1=0.1505
+rbf_svm candidate 15/36 | validation_macro_f1=0.2759
+rbf_svm candidate 16/36 | validation_macro_f1=0.6671
+rbf_svm candidate 17/36 | validation_macro_f1=0.7561
+rbf_svm candidate 18/36 | validation_macro_f1=0.4067
+rbf_svm candidate 19/36 | validation_macro_f1=0.7997
+rbf_svm candidate 20/36 | validation_macro_f1=0.2675
+rbf_svm candidate 21/36 | validation_macro_f1=0.6377
+rbf_svm candidate 22/36 | validation_macro_f1=0.7986
+rbf_svm candidate 23/36 | validation_macro_f1=0.7934
+rbf_svm candidate 24/36 | validation_macro_f1=0.4237
+rbf_svm candidate 25/36 | validation_macro_f1=0.7775
+rbf_svm candidate 26/36 | validation_macro_f1=0.6210
+rbf_svm candidate 27/36 | validation_macro_f1=0.7681
+rbf_svm candidate 28/36 | validation_macro_f1=0.7940
+rbf_svm candidate 29/36 | validation_macro_f1=0.7593
+rbf_svm candidate 30/36 | validation_macro_f1=0.4237
+rbf_svm candidate 31/36 | validation_macro_f1=0.7555
+rbf_svm candidate 32/36 | validation_macro_f1=0.7581
+rbf_svm candidate 33/36 | validation_macro_f1=0.7930
+rbf_svm candidate 34/36 | validation_macro_f1=0.7818
+rbf_svm candidate 35/36 | validation_macro_f1=0.7466
+rbf_svm candidate 36/36 | validation_macro_f1=0.4237
+Selected rbf_svm parameters: {'C': 10.0, 'gamma': 'scale'}
+Completed S1 morphology_color_texture rbf_svm: test_accuracy=0.5141, test_macro_f1=0.5210
+Metrics: experiments/image_descriptor_classification/run_20260925_134404/S1/rbf_svm/morphology_color_texture/metrics_summary.json
+Selecting and training random_forest.
+random_forest candidate 01/18 | validation_macro_f1=0.7282
+random_forest candidate 02/18 | validation_macro_f1=0.7467
+random_forest candidate 03/18 | validation_macro_f1=0.7336
+random_forest candidate 04/18 | validation_macro_f1=0.7532
+random_forest candidate 05/18 | validation_macro_f1=0.7113
+random_forest candidate 06/18 | validation_macro_f1=0.7558
+random_forest candidate 07/18 | validation_macro_f1=0.7333
+random_forest candidate 08/18 | validation_macro_f1=0.7515
+random_forest candidate 09/18 | validation_macro_f1=0.7104
+random_forest candidate 10/18 | validation_macro_f1=0.7625
+random_forest candidate 11/18 | validation_macro_f1=0.7055
+random_forest candidate 12/18 | validation_macro_f1=0.7617
+random_forest candidate 13/18 | validation_macro_f1=0.7297
+random_forest candidate 14/18 | validation_macro_f1=0.7447
+random_forest candidate 15/18 | validation_macro_f1=0.7327
+random_forest candidate 16/18 | validation_macro_f1=0.7532
+random_forest candidate 17/18 | validation_macro_f1=0.7113
+random_forest candidate 18/18 | validation_macro_f1=0.7558
+Selected random_forest parameters: {'n_estimators': 300, 'max_depth': 10, 'min_samples_leaf': 2, 'max_features': 0.5}
+Completed S1 morphology_color_texture random_forest: test_accuracy=0.5748, test_macro_f1=0.5878
+Metrics: experiments/image_descriptor_classification/run_20260925_134404/S1/random_forest/morphology_color_texture/metrics_summary.json
+
+Preparing independent descriptor run: S2
+Configuration morphology_color_texture: 22 descriptors.
+Selecting and training rbf_svm.
+rbf_svm candidate 01/36 | validation_macro_f1=0.1468
+rbf_svm candidate 02/36 | validation_macro_f1=0.1468
+rbf_svm candidate 03/36 | validation_macro_f1=0.1468
+rbf_svm candidate 04/36 | validation_macro_f1=0.1468
+rbf_svm candidate 05/36 | validation_macro_f1=0.1468
+rbf_svm candidate 06/36 | validation_macro_f1=0.1468
+rbf_svm candidate 07/36 | validation_macro_f1=0.4430
+rbf_svm candidate 08/36 | validation_macro_f1=0.1468
+rbf_svm candidate 09/36 | validation_macro_f1=0.1468
+rbf_svm candidate 10/36 | validation_macro_f1=0.2355
+rbf_svm candidate 11/36 | validation_macro_f1=0.4704
+rbf_svm candidate 12/36 | validation_macro_f1=0.1468
+rbf_svm candidate 13/36 | validation_macro_f1=0.7714
+rbf_svm candidate 14/36 | validation_macro_f1=0.1468
+rbf_svm candidate 15/36 | validation_macro_f1=0.2511
+rbf_svm candidate 16/36 | validation_macro_f1=0.6780
+rbf_svm candidate 17/36 | validation_macro_f1=0.7855
+rbf_svm candidate 18/36 | validation_macro_f1=0.3855
+rbf_svm candidate 19/36 | validation_macro_f1=0.8187
+rbf_svm candidate 20/36 | validation_macro_f1=0.2528
+rbf_svm candidate 21/36 | validation_macro_f1=0.6356
+rbf_svm candidate 22/36 | validation_macro_f1=0.7868
+rbf_svm candidate 23/36 | validation_macro_f1=0.7753
+rbf_svm candidate 24/36 | validation_macro_f1=0.4555
+rbf_svm candidate 25/36 | validation_macro_f1=0.7549
+rbf_svm candidate 26/36 | validation_macro_f1=0.6272
+rbf_svm candidate 27/36 | validation_macro_f1=0.7277
+rbf_svm candidate 28/36 | validation_macro_f1=0.7865
+rbf_svm candidate 29/36 | validation_macro_f1=0.7374
+rbf_svm candidate 30/36 | validation_macro_f1=0.4555
+rbf_svm candidate 31/36 | validation_macro_f1=0.7387
+rbf_svm candidate 32/36 | validation_macro_f1=0.6956
+rbf_svm candidate 33/36 | validation_macro_f1=0.7708
+rbf_svm candidate 34/36 | validation_macro_f1=0.7616
+rbf_svm candidate 35/36 | validation_macro_f1=0.7176
+rbf_svm candidate 36/36 | validation_macro_f1=0.4555
+Selected rbf_svm parameters: {'C': 10.0, 'gamma': 'scale'}
+Completed S2 morphology_color_texture rbf_svm: test_accuracy=0.5369, test_macro_f1=0.5374
+Metrics: experiments/image_descriptor_classification/run_20260925_134404/S2/rbf_svm/morphology_color_texture/metrics_summary.json
+Selecting and training random_forest.
+random_forest candidate 01/18 | validation_macro_f1=0.7482
+random_forest candidate 02/18 | validation_macro_f1=0.7412
+random_forest candidate 03/18 | validation_macro_f1=0.7554
+random_forest candidate 04/18 | validation_macro_f1=0.7555
+random_forest candidate 05/18 | validation_macro_f1=0.7461
+random_forest candidate 06/18 | validation_macro_f1=0.7547
+random_forest candidate 07/18 | validation_macro_f1=0.7385
+random_forest candidate 08/18 | validation_macro_f1=0.7529
+random_forest candidate 09/18 | validation_macro_f1=0.7441
+random_forest candidate 10/18 | validation_macro_f1=0.7630
+random_forest candidate 11/18 | validation_macro_f1=0.7252
+random_forest candidate 12/18 | validation_macro_f1=0.7572
+random_forest candidate 13/18 | validation_macro_f1=0.7577
+random_forest candidate 14/18 | validation_macro_f1=0.7412
+random_forest candidate 15/18 | validation_macro_f1=0.7554
+random_forest candidate 16/18 | validation_macro_f1=0.7555
+random_forest candidate 17/18 | validation_macro_f1=0.7461
+random_forest candidate 18/18 | validation_macro_f1=0.7547
+Selected random_forest parameters: {'n_estimators': 300, 'max_depth': 10, 'min_samples_leaf': 2, 'max_features': 0.5}
+Completed S2 morphology_color_texture random_forest: test_accuracy=0.6163, test_macro_f1=0.6243
+Metrics: experiments/image_descriptor_classification/run_20260925_134404/S2/random_forest/morphology_color_texture/metrics_summary.json
+
+Preparing independent descriptor run: S3
+Configuration morphology_color_texture: 22 descriptors.
+Selecting and training rbf_svm.
+rbf_svm candidate 01/36 | validation_macro_f1=0.1388
+rbf_svm candidate 02/36 | validation_macro_f1=0.1388
+rbf_svm candidate 03/36 | validation_macro_f1=0.1388
+rbf_svm candidate 04/36 | validation_macro_f1=0.1388
+rbf_svm candidate 05/36 | validation_macro_f1=0.1388
+rbf_svm candidate 06/36 | validation_macro_f1=0.1388
+rbf_svm candidate 07/36 | validation_macro_f1=0.5400
+rbf_svm candidate 08/36 | validation_macro_f1=0.1388
+rbf_svm candidate 09/36 | validation_macro_f1=0.1388
+rbf_svm candidate 10/36 | validation_macro_f1=0.1919
+rbf_svm candidate 11/36 | validation_macro_f1=0.5869
+rbf_svm candidate 12/36 | validation_macro_f1=0.1388
+rbf_svm candidate 13/36 | validation_macro_f1=0.7695
+rbf_svm candidate 14/36 | validation_macro_f1=0.1388
+rbf_svm candidate 15/36 | validation_macro_f1=0.2384
+rbf_svm candidate 16/36 | validation_macro_f1=0.6824
+rbf_svm candidate 17/36 | validation_macro_f1=0.7920
+rbf_svm candidate 18/36 | validation_macro_f1=0.4618
+rbf_svm candidate 19/36 | validation_macro_f1=0.7930
+rbf_svm candidate 20/36 | validation_macro_f1=0.2347
+rbf_svm candidate 21/36 | validation_macro_f1=0.6539
+rbf_svm candidate 22/36 | validation_macro_f1=0.7673
+rbf_svm candidate 23/36 | validation_macro_f1=0.7955
+rbf_svm candidate 24/36 | validation_macro_f1=0.5080
+rbf_svm candidate 25/36 | validation_macro_f1=0.7996
+rbf_svm candidate 26/36 | validation_macro_f1=0.6461
+rbf_svm candidate 27/36 | validation_macro_f1=0.7181
+rbf_svm candidate 28/36 | validation_macro_f1=0.7789
+rbf_svm candidate 29/36 | validation_macro_f1=0.7553
+rbf_svm candidate 30/36 | validation_macro_f1=0.5080
+rbf_svm candidate 31/36 | validation_macro_f1=0.7452
+rbf_svm candidate 32/36 | validation_macro_f1=0.6866
+rbf_svm candidate 33/36 | validation_macro_f1=0.7431
+rbf_svm candidate 34/36 | validation_macro_f1=0.7574
+rbf_svm candidate 35/36 | validation_macro_f1=0.7601
+rbf_svm candidate 36/36 | validation_macro_f1=0.5080
+Selected rbf_svm parameters: {'C': 100.0, 'gamma': 'scale'}
+Completed S3 morphology_color_texture rbf_svm: test_accuracy=0.5539, test_macro_f1=0.4611
+Metrics: experiments/image_descriptor_classification/run_20260925_134404/S3/rbf_svm/morphology_color_texture/metrics_summary.json
+Selecting and training random_forest.
+random_forest candidate 01/18 | validation_macro_f1=0.7861
+random_forest candidate 02/18 | validation_macro_f1=0.7820
+random_forest candidate 03/18 | validation_macro_f1=0.7820
+random_forest candidate 04/18 | validation_macro_f1=0.7803
+random_forest candidate 05/18 | validation_macro_f1=0.7843
+random_forest candidate 06/18 | validation_macro_f1=0.7746
+random_forest candidate 07/18 | validation_macro_f1=0.7664
+random_forest candidate 08/18 | validation_macro_f1=0.7820
+random_forest candidate 09/18 | validation_macro_f1=0.7734
+random_forest candidate 10/18 | validation_macro_f1=0.7724
+random_forest candidate 11/18 | validation_macro_f1=0.7865
+random_forest candidate 12/18 | validation_macro_f1=0.7699
+random_forest candidate 13/18 | validation_macro_f1=0.7895
+random_forest candidate 14/18 | validation_macro_f1=0.7843
+random_forest candidate 15/18 | validation_macro_f1=0.7820
+random_forest candidate 16/18 | validation_macro_f1=0.7803
+random_forest candidate 17/18 | validation_macro_f1=0.7843
+random_forest candidate 18/18 | validation_macro_f1=0.7746
+Selected random_forest parameters: {'n_estimators': 300, 'max_depth': 20, 'min_samples_leaf': 1, 'max_features': 'sqrt'}
+Completed S3 morphology_color_texture random_forest: test_accuracy=0.6451, test_macro_f1=0.4870
+Metrics: experiments/image_descriptor_classification/run_20260925_134404/S3/random_forest/morphology_color_texture/metrics_summary.json
+Saved classifier results: experiments/image_descriptor_classification/run_20260925_134404/summaries/classifier_results.csv
+Image-descriptor classifier training completed.

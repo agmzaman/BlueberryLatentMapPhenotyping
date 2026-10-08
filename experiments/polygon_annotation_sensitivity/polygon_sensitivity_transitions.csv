@@ -1,0 +1,49 @@
+noise_percentage,original_class,perturbed_class,count,percentage_within_original_class
+1.0,Very Small,Very Small,63896,98.91021671826626
+1.0,Very Small,Small,704,1.089783281733746
+1.0,Very Small,Medium,0,0.0
+1.0,Very Small,Large,0,0.0
+1.0,Small,Very Small,767,0.9034157832744405
+1.0,Small,Small,83472,98.31802120141343
+1.0,Small,Medium,661,0.7785630153121319
+1.0,Small,Large,0,0.0
+1.0,Medium,Very Small,0,0.0
+1.0,Medium,Small,645,1.528436018957346
+1.0,Medium,Medium,41508,98.36018957345972
+1.0,Medium,Large,47,0.11137440758293839
+1.0,Large,Very Small,0,0.0
+1.0,Large,Small,0,0.0
+1.0,Large,Medium,105,0.8333333333333334
+1.0,Large,Large,12495,99.16666666666667
+2.0,Very Small,Very Small,63048,97.59752321981424
+2.0,Very Small,Small,1552,2.4024767801857587
+2.0,Very Small,Medium,0,0.0
+2.0,Very Small,Large,0,0.0
+2.0,Small,Very Small,1653,1.9469964664310955
+2.0,Small,Small,81822,96.37455830388693
+2.0,Small,Medium,1425,1.6784452296819787
+2.0,Small,Large,0,0.0
+2.0,Medium,Very Small,0,0.0
+2.0,Medium,Small,1521,3.604265402843602
+2.0,Medium,Medium,40597,96.20142180094787
+2.0,Medium,Large,82,0.1943127962085308
+2.0,Large,Very Small,0,0.0
+2.0,Large,Small,0,0.0
+2.0,Large,Medium,237,1.880952380952381
+2.0,Large,Large,12363,98.11904761904762
+3.0,Very Small,Very Small,62040,96.03715170278637
+3.0,Very Small,Small,2560,3.9628482972136223
+3.0,Very Small,Medium,0,0.0
+3.0,Very Small,Large,0,0.0
+3.0,Small,Very Small,2657,3.1295641931684335
+3.0,Small,Small,79878,94.08480565371025
+3.0,Small,Medium,2365,2.785630153121319
+3.0,Small,Large,0,0.0
+3.0,Medium,Very Small,0,0.0
+3.0,Medium,Small,2578,6.109004739336493
+3.0,Medium,Medium,39480,93.55450236966824
+3.0,Medium,Large,142,0.33649289099526064
+3.0,Large,Very Small,0,0.0
+3.0,Large,Small,0,0.0
+3.0,Large,Medium,400,3.1746031746031744
+3.0,Large,Large,12200,96.82539682539682

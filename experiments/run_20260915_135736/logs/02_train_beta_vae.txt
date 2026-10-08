@@ -1,0 +1,226 @@
+Experiment: experiments/run_20260915_135736
+Epoch 001/175 | beta=0.000100 | train=159533.1707 | validation=141795.4226 | lr=0.00030000 | saved=False
+Epoch 002/175 | beta=0.016424 | train=131454.8728 | validation=126896.4418 | lr=0.00030000 | saved=False
+Epoch 003/175 | beta=0.032749 | train=122944.3073 | validation=138322.9012 | lr=0.00030000 | saved=False
+Epoch 004/175 | beta=0.049073 | train=108890.3764 | validation=112160.5332 | lr=0.00030000 | saved=False
+Epoch 005/175 | beta=0.065398 | train=99937.4661 | validation=104705.5632 | lr=0.00030000 | saved=False
+Epoch 006/175 | beta=0.081722 | train=97582.5961 | validation=99976.6494 | lr=0.00030000 | saved=False
+Epoch 007/175 | beta=0.098047 | train=95615.0610 | validation=101328.9749 | lr=0.00030000 | saved=False
+Epoch 008/175 | beta=0.114371 | train=95477.7982 | validation=102282.9207 | lr=0.00030000 | saved=False
+Epoch 009/175 | beta=0.130696 | train=95107.0075 | validation=102447.3006 | lr=0.00030000 | saved=False
+Epoch 010/175 | beta=0.147020 | train=95346.0454 | validation=98935.6295 | lr=0.00030000 | saved=True
+Saved best checkpoint: experiments/run_20260915_135736/vae/checkpoints/best_beta_vae.pt
+Epoch 011/175 | beta=0.163345 | train=94598.2043 | validation=96386.9628 | lr=0.00030000 | saved=True
+Saved best checkpoint: experiments/run_20260915_135736/vae/checkpoints/best_beta_vae.pt
+Epoch 012/175 | beta=0.179669 | train=94332.4614 | validation=95581.0991 | lr=0.00030000 | saved=True
+Saved best checkpoint: experiments/run_20260915_135736/vae/checkpoints/best_beta_vae.pt
+Epoch 013/175 | beta=0.195994 | train=94009.6432 | validation=94573.0854 | lr=0.00030000 | saved=True
+Saved best checkpoint: experiments/run_20260915_135736/vae/checkpoints/best_beta_vae.pt
+Epoch 014/175 | beta=0.212318 | train=93740.6705 | validation=95845.2620 | lr=0.00030000 | saved=False
+Epoch 015/175 | beta=0.228643 | train=91246.0852 | validation=93289.2819 | lr=0.00030000 | saved=True
+Saved best checkpoint: experiments/run_20260915_135736/vae/checkpoints/best_beta_vae.pt
+Epoch 016/175 | beta=0.244967 | train=88425.7272 | validation=92279.5545 | lr=0.00030000 | saved=True
+Saved best checkpoint: experiments/run_20260915_135736/vae/checkpoints/best_beta_vae.pt
+Epoch 017/175 | beta=0.261292 | train=89005.1395 | validation=94017.0823 | lr=0.00030000 | saved=False
+Epoch 018/175 | beta=0.277616 | train=88787.8830 | validation=94520.0467 | lr=0.00030000 | saved=False
+Epoch 019/175 | beta=0.293941 | train=88749.5284 | validation=89851.8915 | lr=0.00030000 | saved=True
+Saved best checkpoint: experiments/run_20260915_135736/vae/checkpoints/best_beta_vae.pt
+Epoch 020/175 | beta=0.310265 | train=88799.3252 | validation=96030.5141 | lr=0.00030000 | saved=False
+Epoch 021/175 | beta=0.326590 | train=88167.1516 | validation=89335.0811 | lr=0.00030000 | saved=True
+Saved best checkpoint: experiments/run_20260915_135736/vae/checkpoints/best_beta_vae.pt
+Epoch 022/175 | beta=0.342914 | train=88237.9890 | validation=92475.2424 | lr=0.00030000 | saved=False
+Epoch 023/175 | beta=0.359239 | train=88448.0337 | validation=91145.2794 | lr=0.00030000 | saved=False
+Epoch 024/175 | beta=0.375563 | train=87789.1959 | validation=96809.0602 | lr=0.00030000 | saved=False
+Epoch 025/175 | beta=0.391888 | train=88724.0094 | validation=93247.2022 | lr=0.00030000 | saved=False
+Epoch 026/175 | beta=0.408212 | train=87277.8256 | validation=90823.5935 | lr=0.00030000 | saved=False
+Epoch 027/175 | beta=0.424537 | train=87694.4058 | validation=95817.5988 | lr=0.00030000 | saved=False
+Epoch 028/175 | beta=0.440861 | train=88084.9747 | validation=92347.6797 | lr=0.00030000 | saved=False
+Epoch 029/175 | beta=0.457186 | train=88148.8771 | validation=95942.4624 | lr=0.00030000 | saved=False
+Epoch 030/175 | beta=0.473510 | train=88437.2840 | validation=90771.1764 | lr=0.00030000 | saved=True
+Saved best checkpoint: experiments/run_20260915_135736/vae/checkpoints/best_beta_vae.pt
+Epoch 031/175 | beta=0.489835 | train=87519.5592 | validation=91537.6073 | lr=0.00030000 | saved=False
+Epoch 032/175 | beta=0.506159 | train=87702.8774 | validation=95204.3034 | lr=0.00030000 | saved=False
+Epoch 033/175 | beta=0.522484 | train=87825.6050 | validation=90953.1093 | lr=0.00030000 | saved=True
+Saved best checkpoint: experiments/run_20260915_135736/vae/checkpoints/best_beta_vae.pt
+Epoch 034/175 | beta=0.538808 | train=87743.9641 | validation=90002.4099 | lr=0.00030000 | saved=True
+Saved best checkpoint: experiments/run_20260915_135736/vae/checkpoints/best_beta_vae.pt
+Epoch 035/175 | beta=0.555133 | train=88294.2910 | validation=91561.6850 | lr=0.00030000 | saved=False
+Epoch 036/175 | beta=0.571457 | train=87882.1672 | validation=90119.6788 | lr=0.00030000 | saved=True
+Saved best checkpoint: experiments/run_20260915_135736/vae/checkpoints/best_beta_vae.pt
+Epoch 037/175 | beta=0.587782 | train=88181.0282 | validation=89448.6533 | lr=0.00030000 | saved=True
+Saved best checkpoint: experiments/run_20260915_135736/vae/checkpoints/best_beta_vae.pt
+Epoch 038/175 | beta=0.604106 | train=87609.9211 | validation=91010.1202 | lr=0.00030000 | saved=False
+Epoch 039/175 | beta=0.620431 | train=88450.1044 | validation=92190.0743 | lr=0.00030000 | saved=False
+Epoch 040/175 | beta=0.636755 | train=88127.3671 | validation=91390.8413 | lr=0.00030000 | saved=False
+Epoch 041/175 | beta=0.653080 | train=88068.7385 | validation=90689.1764 | lr=0.00030000 | saved=False
+Epoch 042/175 | beta=0.669404 | train=88043.4989 | validation=91070.2388 | lr=0.00030000 | saved=False
+Epoch 043/175 | beta=0.685729 | train=87924.9920 | validation=90896.3287 | lr=0.00030000 | saved=False
+Epoch 044/175 | beta=0.702053 | train=88696.6527 | validation=91194.8376 | lr=0.00030000 | saved=False
+Epoch 045/175 | beta=0.718378 | train=88315.0820 | validation=93074.6361 | lr=0.00030000 | saved=False
+Epoch 046/175 | beta=0.734702 | train=88225.8787 | validation=93780.3418 | lr=0.00030000 | saved=False
+Epoch 047/175 | beta=0.751027 | train=89431.1028 | validation=94126.0300 | lr=0.00030000 | saved=False
+Epoch 048/175 | beta=0.767351 | train=89400.1158 | validation=90970.2249 | lr=0.00030000 | saved=True
+Saved best checkpoint: experiments/run_20260915_135736/vae/checkpoints/best_beta_vae.pt
+Epoch 049/175 | beta=0.783676 | train=89584.3537 | validation=94201.1558 | lr=0.00030000 | saved=False
+Epoch 050/175 | beta=0.800000 | train=89766.3122 | validation=92903.5872 | lr=0.00030000 | saved=False
+Epoch 051/175 | beta=0.800000 | train=88718.4379 | validation=93457.8335 | lr=0.00030000 | saved=False
+Epoch 052/175 | beta=0.800000 | train=88910.2782 | validation=92299.0756 | lr=0.00030000 | saved=False
+Epoch 053/175 | beta=0.800000 | train=88500.3196 | validation=91906.1394 | lr=0.00030000 | saved=False
+Epoch 054/175 | beta=0.800000 | train=88660.2046 | validation=91758.5120 | lr=0.00030000 | saved=False
+Epoch 055/175 | beta=0.800000 | train=87958.1891 | validation=91727.2665 | lr=0.00030000 | saved=False
+Epoch 056/175 | beta=0.800000 | train=88307.7008 | validation=90965.0476 | lr=0.00030000 | saved=True
+Saved best checkpoint: experiments/run_20260915_135736/vae/checkpoints/best_beta_vae.pt
+Epoch 057/175 | beta=0.800000 | train=88503.5673 | validation=92415.4656 | lr=0.00030000 | saved=False
+Epoch 058/175 | beta=0.800000 | train=87856.0223 | validation=92663.7479 | lr=0.00030000 | saved=False
+Epoch 059/175 | beta=0.800000 | train=88187.2706 | validation=93880.1672 | lr=0.00015000 | saved=False
+Epoch 060/175 | beta=0.800000 | train=86518.4810 | validation=90268.3478 | lr=0.00015000 | saved=True
+Saved best checkpoint: experiments/run_20260915_135736/vae/checkpoints/best_beta_vae.pt
+Epoch 061/175 | beta=0.800000 | train=86187.0963 | validation=89671.6420 | lr=0.00015000 | saved=True
+Saved best checkpoint: experiments/run_20260915_135736/vae/checkpoints/best_beta_vae.pt
+Epoch 062/175 | beta=0.800000 | train=86593.9149 | validation=89843.6964 | lr=0.00015000 | saved=False
+Epoch 063/175 | beta=0.800000 | train=86270.3207 | validation=89727.5278 | lr=0.00015000 | saved=True
+Saved best checkpoint: experiments/run_20260915_135736/vae/checkpoints/best_beta_vae.pt
+Epoch 064/175 | beta=0.800000 | train=86076.3281 | validation=89473.6056 | lr=0.00015000 | saved=True
+Saved best checkpoint: experiments/run_20260915_135736/vae/checkpoints/best_beta_vae.pt
+Epoch 065/175 | beta=0.800000 | train=86049.4068 | validation=89501.1145 | lr=0.00015000 | saved=True
+Saved best checkpoint: experiments/run_20260915_135736/vae/checkpoints/best_beta_vae.pt
+Epoch 066/175 | beta=0.800000 | train=86400.0375 | validation=89235.0437 | lr=0.00015000 | saved=True
+Saved best checkpoint: experiments/run_20260915_135736/vae/checkpoints/best_beta_vae.pt
+Epoch 067/175 | beta=0.800000 | train=85841.0609 | validation=89694.4170 | lr=0.00015000 | saved=False
+Epoch 068/175 | beta=0.800000 | train=86388.1263 | validation=88844.5740 | lr=0.00015000 | saved=True
+Saved best checkpoint: experiments/run_20260915_135736/vae/checkpoints/best_beta_vae.pt
+Epoch 069/175 | beta=0.800000 | train=85973.0644 | validation=89158.7027 | lr=0.00015000 | saved=False
+Epoch 070/175 | beta=0.800000 | train=86299.8839 | validation=89438.0766 | lr=0.00015000 | saved=False
+Epoch 071/175 | beta=0.800000 | train=85830.3531 | validation=89453.0702 | lr=0.00015000 | saved=False
+Epoch 072/175 | beta=0.800000 | train=86103.7422 | validation=88882.3757 | lr=0.00015000 | saved=True
+Saved best checkpoint: experiments/run_20260915_135736/vae/checkpoints/best_beta_vae.pt
+Epoch 073/175 | beta=0.800000 | train=85534.2610 | validation=88690.1353 | lr=0.00015000 | saved=True
+Saved best checkpoint: experiments/run_20260915_135736/vae/checkpoints/best_beta_vae.pt
+Epoch 074/175 | beta=0.800000 | train=85599.1268 | validation=88980.7266 | lr=0.00015000 | saved=False
+Epoch 075/175 | beta=0.800000 | train=85319.5528 | validation=89519.9882 | lr=0.00015000 | saved=False
+Epoch 076/175 | beta=0.800000 | train=85172.0183 | validation=88339.9277 | lr=0.00015000 | saved=True
+Saved best checkpoint: experiments/run_20260915_135736/vae/checkpoints/best_beta_vae.pt
+Epoch 077/175 | beta=0.800000 | train=85095.0683 | validation=87900.5543 | lr=0.00015000 | saved=True
+Saved best checkpoint: experiments/run_20260915_135736/vae/checkpoints/best_beta_vae.pt
+Epoch 078/175 | beta=0.800000 | train=84910.2237 | validation=88022.6506 | lr=0.00015000 | saved=False
+Epoch 079/175 | beta=0.800000 | train=84444.6273 | validation=87769.3827 | lr=0.00015000 | saved=True
+Saved best checkpoint: experiments/run_20260915_135736/vae/checkpoints/best_beta_vae.pt
+Epoch 080/175 | beta=0.800000 | train=84746.3911 | validation=88032.4724 | lr=0.00015000 | saved=False
+Epoch 081/175 | beta=0.800000 | train=84494.1264 | validation=88057.1764 | lr=0.00015000 | saved=True
+Saved best checkpoint: experiments/run_20260915_135736/vae/checkpoints/best_beta_vae.pt
+Epoch 082/175 | beta=0.800000 | train=84615.2819 | validation=87369.1587 | lr=0.00015000 | saved=True
+Saved best checkpoint: experiments/run_20260915_135736/vae/checkpoints/best_beta_vae.pt
+Epoch 083/175 | beta=0.800000 | train=84456.6602 | validation=87877.8828 | lr=0.00015000 | saved=False
+Epoch 084/175 | beta=0.800000 | train=84578.5817 | validation=87926.0160 | lr=0.00015000 | saved=False
+Epoch 085/175 | beta=0.800000 | train=83997.9140 | validation=87001.4383 | lr=0.00015000 | saved=True
+Saved best checkpoint: experiments/run_20260915_135736/vae/checkpoints/best_beta_vae.pt
+Epoch 086/175 | beta=0.800000 | train=84110.5056 | validation=88728.2510 | lr=0.00015000 | saved=False
+Epoch 087/175 | beta=0.800000 | train=84057.5942 | validation=86994.3202 | lr=0.00015000 | saved=True
+Saved best checkpoint: experiments/run_20260915_135736/vae/checkpoints/best_beta_vae.pt
+Epoch 088/175 | beta=0.800000 | train=84027.4572 | validation=86974.9431 | lr=0.00015000 | saved=False
+Epoch 089/175 | beta=0.800000 | train=83725.6019 | validation=86995.3351 | lr=0.00015000 | saved=False
+Epoch 090/175 | beta=0.800000 | train=83841.7809 | validation=87041.1063 | lr=0.00015000 | saved=False
+Epoch 091/175 | beta=0.800000 | train=84066.2183 | validation=87671.5150 | lr=0.00015000 | saved=False
+Epoch 092/175 | beta=0.800000 | train=84134.2193 | validation=88198.0384 | lr=0.00015000 | saved=False
+Epoch 093/175 | beta=0.800000 | train=83831.9569 | validation=86833.1703 | lr=0.00015000 | saved=True
+Saved best checkpoint: experiments/run_20260915_135736/vae/checkpoints/best_beta_vae.pt
+Epoch 094/175 | beta=0.800000 | train=83889.2875 | validation=86763.0770 | lr=0.00015000 | saved=False
+Epoch 095/175 | beta=0.800000 | train=83348.5739 | validation=88263.1499 | lr=0.00015000 | saved=False
+Epoch 096/175 | beta=0.800000 | train=83472.3599 | validation=86574.5196 | lr=0.00015000 | saved=True
+Saved best checkpoint: experiments/run_20260915_135736/vae/checkpoints/best_beta_vae.pt
+Epoch 097/175 | beta=0.800000 | train=83345.3070 | validation=87384.1678 | lr=0.00015000 | saved=False
+Epoch 098/175 | beta=0.800000 | train=83914.5854 | validation=87359.3364 | lr=0.00015000 | saved=False
+Epoch 099/175 | beta=0.800000 | train=83621.9189 | validation=87495.0185 | lr=0.00015000 | saved=False
+Epoch 100/175 | beta=0.800000 | train=83486.1605 | validation=86823.7044 | lr=0.00015000 | saved=False
+Epoch 101/175 | beta=0.800000 | train=83760.9026 | validation=86779.6317 | lr=0.00015000 | saved=False
+Epoch 102/175 | beta=0.800000 | train=83538.3171 | validation=86312.6819 | lr=0.00015000 | saved=True
+Saved best checkpoint: experiments/run_20260915_135736/vae/checkpoints/best_beta_vae.pt
+Epoch 103/175 | beta=0.800000 | train=83563.9024 | validation=86569.3195 | lr=0.00015000 | saved=False
+Epoch 104/175 | beta=0.800000 | train=83467.1791 | validation=87680.6643 | lr=0.00015000 | saved=False
+Epoch 105/175 | beta=0.800000 | train=83754.8407 | validation=86638.8782 | lr=0.00015000 | saved=False
+Epoch 106/175 | beta=0.800000 | train=83632.1023 | validation=86904.9809 | lr=0.00015000 | saved=False
+Epoch 107/175 | beta=0.800000 | train=83060.3830 | validation=87297.7460 | lr=0.00007500 | saved=False
+Epoch 108/175 | beta=0.800000 | train=82711.5111 | validation=86209.5565 | lr=0.00007500 | saved=True
+Saved best checkpoint: experiments/run_20260915_135736/vae/checkpoints/best_beta_vae.pt
+Epoch 109/175 | beta=0.800000 | train=82527.0803 | validation=85980.4968 | lr=0.00007500 | saved=True
+Saved best checkpoint: experiments/run_20260915_135736/vae/checkpoints/best_beta_vae.pt
+Epoch 110/175 | beta=0.800000 | train=82417.7477 | validation=85932.0391 | lr=0.00007500 | saved=True
+Saved best checkpoint: experiments/run_20260915_135736/vae/checkpoints/best_beta_vae.pt
+Epoch 111/175 | beta=0.800000 | train=82603.3881 | validation=85865.6997 | lr=0.00007500 | saved=False
+Epoch 112/175 | beta=0.800000 | train=82575.0521 | validation=86415.5961 | lr=0.00007500 | saved=False
+Epoch 113/175 | beta=0.800000 | train=82707.8858 | validation=86027.9203 | lr=0.00007500 | saved=False
+Epoch 114/175 | beta=0.800000 | train=82303.5377 | validation=85792.4954 | lr=0.00007500 | saved=True
+Saved best checkpoint: experiments/run_20260915_135736/vae/checkpoints/best_beta_vae.pt
+Epoch 115/175 | beta=0.800000 | train=82502.1090 | validation=86085.5057 | lr=0.00007500 | saved=False
+Epoch 116/175 | beta=0.800000 | train=82734.2096 | validation=86037.6266 | lr=0.00007500 | saved=False
+Epoch 117/175 | beta=0.800000 | train=82242.0632 | validation=85921.5581 | lr=0.00007500 | saved=False
+Epoch 118/175 | beta=0.800000 | train=82553.9244 | validation=85948.3200 | lr=0.00007500 | saved=False
+Epoch 119/175 | beta=0.800000 | train=82426.4404 | validation=86084.7829 | lr=0.00007500 | saved=False
+Epoch 120/175 | beta=0.800000 | train=82585.5130 | validation=85730.4672 | lr=0.00007500 | saved=True
+Saved best checkpoint: experiments/run_20260915_135736/vae/checkpoints/best_beta_vae.pt
+Epoch 121/175 | beta=0.800000 | train=82647.1518 | validation=85928.6736 | lr=0.00003750 | saved=False
+Epoch 122/175 | beta=0.800000 | train=82337.9388 | validation=85433.5774 | lr=0.00003750 | saved=True
+Saved best checkpoint: experiments/run_20260915_135736/vae/checkpoints/best_beta_vae.pt
+Epoch 123/175 | beta=0.800000 | train=82133.5982 | validation=85463.0353 | lr=0.00003750 | saved=False
+Epoch 124/175 | beta=0.800000 | train=82273.4089 | validation=85430.0242 | lr=0.00003750 | saved=False
+Epoch 125/175 | beta=0.800000 | train=82058.1612 | validation=85367.6085 | lr=0.00003750 | saved=True
+Saved best checkpoint: experiments/run_20260915_135736/vae/checkpoints/best_beta_vae.pt
+Epoch 126/175 | beta=0.800000 | train=82150.1106 | validation=85501.3642 | lr=0.00003750 | saved=False
+Epoch 127/175 | beta=0.800000 | train=81838.8903 | validation=85446.6232 | lr=0.00003750 | saved=False
+Epoch 128/175 | beta=0.800000 | train=82009.9894 | validation=85535.6392 | lr=0.00003750 | saved=False
+Epoch 129/175 | beta=0.800000 | train=82183.5717 | validation=85418.6746 | lr=0.00003750 | saved=False
+Epoch 130/175 | beta=0.800000 | train=81786.2586 | validation=85396.6503 | lr=0.00003750 | saved=False
+Epoch 131/175 | beta=0.800000 | train=82043.4271 | validation=85375.3144 | lr=0.00003750 | saved=False
+Epoch 132/175 | beta=0.800000 | train=81909.2116 | validation=85381.0813 | lr=0.00003750 | saved=False
+Epoch 133/175 | beta=0.800000 | train=82069.6491 | validation=85439.9256 | lr=0.00001875 | saved=False
+Epoch 134/175 | beta=0.800000 | train=81694.9902 | validation=85249.3717 | lr=0.00001875 | saved=True
+Saved best checkpoint: experiments/run_20260915_135736/vae/checkpoints/best_beta_vae.pt
+Epoch 135/175 | beta=0.800000 | train=81727.3502 | validation=85183.4296 | lr=0.00001875 | saved=True
+Saved best checkpoint: experiments/run_20260915_135736/vae/checkpoints/best_beta_vae.pt
+Epoch 136/175 | beta=0.800000 | train=81322.5357 | validation=85219.9805 | lr=0.00001875 | saved=False
+Epoch 137/175 | beta=0.800000 | train=81824.4341 | validation=85179.5831 | lr=0.00001875 | saved=False
+Epoch 138/175 | beta=0.800000 | train=81765.7946 | validation=85233.1261 | lr=0.00001875 | saved=False
+Epoch 139/175 | beta=0.800000 | train=81741.7017 | validation=85221.4774 | lr=0.00001875 | saved=False
+Epoch 140/175 | beta=0.800000 | train=81673.3546 | validation=85176.8604 | lr=0.00001875 | saved=False
+Epoch 141/175 | beta=0.800000 | train=81871.3785 | validation=85185.7419 | lr=0.00001875 | saved=False
+Epoch 142/175 | beta=0.800000 | train=81549.3031 | validation=85206.7073 | lr=0.00001875 | saved=False
+Epoch 143/175 | beta=0.800000 | train=81726.0231 | validation=85178.0147 | lr=0.00001875 | saved=False
+Epoch 144/175 | beta=0.800000 | train=82088.8621 | validation=85132.1841 | lr=0.00001875 | saved=True
+Saved best checkpoint: experiments/run_20260915_135736/vae/checkpoints/best_beta_vae.pt
+Epoch 145/175 | beta=0.800000 | train=81618.0104 | validation=85144.8343 | lr=0.00001875 | saved=False
+Epoch 146/175 | beta=0.800000 | train=81394.8715 | validation=85177.0953 | lr=0.00001000 | saved=False
+Epoch 147/175 | beta=0.800000 | train=81657.7308 | validation=85070.7447 | lr=0.00001000 | saved=True
+Saved best checkpoint: experiments/run_20260915_135736/vae/checkpoints/best_beta_vae.pt
+Epoch 148/175 | beta=0.800000 | train=81654.2671 | validation=85082.4241 | lr=0.00001000 | saved=False
+Epoch 149/175 | beta=0.800000 | train=81705.3787 | validation=85085.9869 | lr=0.00001000 | saved=False
+Epoch 150/175 | beta=0.800000 | train=81537.6708 | validation=85063.9539 | lr=0.00001000 | saved=True
+Saved best checkpoint: experiments/run_20260915_135736/vae/checkpoints/best_beta_vae.pt
+Epoch 151/175 | beta=0.800000 | train=81415.9143 | validation=85107.1766 | lr=0.00001000 | saved=False
+Epoch 152/175 | beta=0.800000 | train=81618.0481 | validation=85068.2108 | lr=0.00001000 | saved=False
+Epoch 153/175 | beta=0.800000 | train=81386.9222 | validation=85063.8656 | lr=0.00001000 | saved=True
+Saved best checkpoint: experiments/run_20260915_135736/vae/checkpoints/best_beta_vae.pt
+Epoch 154/175 | beta=0.800000 | train=81513.7550 | validation=85069.6109 | lr=0.00001000 | saved=False
+Epoch 155/175 | beta=0.800000 | train=81435.2800 | validation=85048.2828 | lr=0.00001000 | saved=False
+Epoch 156/175 | beta=0.800000 | train=81506.0667 | validation=85037.7528 | lr=0.00001000 | saved=False
+Epoch 157/175 | beta=0.800000 | train=81348.1488 | validation=85054.7056 | lr=0.00001000 | saved=False
+Epoch 158/175 | beta=0.800000 | train=81346.3727 | validation=85078.2782 | lr=0.00001000 | saved=False
+Epoch 159/175 | beta=0.800000 | train=81567.6074 | validation=85017.5886 | lr=0.00001000 | saved=True
+Saved best checkpoint: experiments/run_20260915_135736/vae/checkpoints/best_beta_vae.pt
+Epoch 160/175 | beta=0.800000 | train=81642.6794 | validation=85068.6878 | lr=0.00001000 | saved=False
+Epoch 161/175 | beta=0.800000 | train=81723.3938 | validation=85047.2212 | lr=0.00001000 | saved=False
+Epoch 162/175 | beta=0.800000 | train=81811.1847 | validation=85073.7149 | lr=0.00001000 | saved=False
+Epoch 163/175 | beta=0.800000 | train=81411.3092 | validation=85059.6294 | lr=0.00001000 | saved=False
+Epoch 164/175 | beta=0.800000 | train=81496.8869 | validation=85009.0820 | lr=0.00001000 | saved=False
+Epoch 165/175 | beta=0.800000 | train=81373.9059 | validation=85012.7901 | lr=0.00001000 | saved=False
+Epoch 166/175 | beta=0.800000 | train=81426.4453 | validation=85058.5984 | lr=0.00001000 | saved=False
+Epoch 167/175 | beta=0.800000 | train=81565.2181 | validation=85033.6873 | lr=0.00001000 | saved=False
+Epoch 168/175 | beta=0.800000 | train=81625.7537 | validation=85012.7380 | lr=0.00001000 | saved=False
+Epoch 169/175 | beta=0.800000 | train=81516.9592 | validation=85011.8696 | lr=0.00001000 | saved=False
+Epoch 170/175 | beta=0.800000 | train=81366.1187 | validation=85021.3183 | lr=0.00001000 | saved=False
+Epoch 171/175 | beta=0.800000 | train=81267.1919 | validation=85014.6390 | lr=0.00001000 | saved=False
+Epoch 172/175 | beta=0.800000 | train=81466.6381 | validation=85000.9480 | lr=0.00001000 | saved=True
+Saved best checkpoint: experiments/run_20260915_135736/vae/checkpoints/best_beta_vae.pt
+Epoch 173/175 | beta=0.800000 | train=81664.0278 | validation=84992.4800 | lr=0.00001000 | saved=False
+Epoch 174/175 | beta=0.800000 | train=81297.8462 | validation=85032.5961 | lr=0.00001000 | saved=False
+Epoch 175/175 | beta=0.800000 | train=81495.5567 | validation=84990.6915 | lr=0.00001000 | saved=False
+Training completed: {'completed_epochs': 175, 'best_epoch': 172, 'best_validation_reconstruction_loss': 70102.96107121027, 'checkpoint': 'experiments/run_20260915_135736/vae/checkpoints/best_beta_vae.pt'}

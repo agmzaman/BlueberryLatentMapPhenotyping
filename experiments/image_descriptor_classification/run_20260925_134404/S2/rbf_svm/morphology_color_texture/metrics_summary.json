@@ -1,0 +1,69 @@
+{
+  "run": "S2",
+  "held_out_session": "2025-08-22",
+  "configuration": "morphology_color_texture",
+  "feature_groups": [
+    "morphology",
+    "color",
+    "glcm"
+  ],
+  "algorithm": "rbf_svm",
+  "seed": 313,
+  "feature_count": 22,
+  "feature_columns": [
+    "morphology_area_fraction",
+    "morphology_width_fraction",
+    "morphology_height_fraction",
+    "morphology_normalized_perimeter",
+    "morphology_solidity",
+    "morphology_eccentricity",
+    "color_exg_mean",
+    "color_exg_std",
+    "color_hsv_saturation_mean",
+    "color_hsv_saturation_std",
+    "color_hsv_value_mean",
+    "color_hsv_value_std",
+    "glcm_contrast_mean",
+    "glcm_contrast_std",
+    "glcm_dissimilarity_mean",
+    "glcm_dissimilarity_std",
+    "glcm_homogeneity_mean",
+    "glcm_homogeneity_std",
+    "glcm_energy_mean",
+    "glcm_energy_std",
+    "glcm_correlation_mean",
+    "glcm_correlation_std"
+  ],
+  "standardized_from_training_only": true,
+  "selection_metric": "macro_f1",
+  "selected_parameters": {
+    "C": 10.0,
+    "gamma": "scale"
+  },
+  "metrics": {
+    "train": {
+      "accuracy": 0.8580246913580247,
+      "balanced_accuracy": 0.8672255419174024,
+      "macro_precision": 0.8963617157556945,
+      "macro_recall": 0.8672255419174024,
+      "macro_f1": 0.8778344519828403,
+      "samples": 1134
+    },
+    "validation": {
+      "accuracy": 0.7868421052631579,
+      "balanced_accuracy": 0.8090147740107375,
+      "macro_precision": 0.8343317009077879,
+      "macro_recall": 0.8090147740107375,
+      "macro_f1": 0.8187136457453795,
+      "samples": 380
+    },
+    "test": {
+      "accuracy": 0.5368620037807184,
+      "balanced_accuracy": 0.5890388139263701,
+      "macro_precision": 0.6175116925465636,
+      "macro_recall": 0.5890388139263701,
+      "macro_f1": 0.5373613572588982,
+      "samples": 529
+    }
+  }
+}

@@ -1,0 +1,9 @@
+run,held_out_session,configuration,feature_groups,algorithm,seed,feature_count,selected_parameters,test_accuracy,test_balanced_accuracy,test_macro_f1,test_samples
+stratified_random,,morphology_color_texture,morphology+color+glcm,rbf_svm,313,22,"{""C"": 1000.0, ""gamma"": 0.01}",0.706601466992665,0.7513914027149321,0.7467217091670022,409
+stratified_random,,morphology_color_texture,morphology+color+glcm,random_forest,313,22,"{""n_estimators"": 300, ""max_depth"": null, ""min_samples_leaf"": 1, ""max_features"": ""sqrt""}",0.7139364303178484,0.7293465847877613,0.7513923343633488,409
+S1,2025-08-07,morphology_color_texture,morphology+color+glcm,rbf_svm,313,22,"{""C"": 10.0, ""gamma"": ""scale""}",0.5140997830802603,0.5446893828366716,0.5209980265580411,461
+S1,2025-08-07,morphology_color_texture,morphology+color+glcm,random_forest,313,22,"{""n_estimators"": 300, ""max_depth"": 10, ""min_samples_leaf"": 2, ""max_features"": 0.5}",0.5748373101952278,0.6016224381789843,0.5878385633542381,461
+S2,2025-08-22,morphology_color_texture,morphology+color+glcm,rbf_svm,313,22,"{""C"": 10.0, ""gamma"": ""scale""}",0.5368620037807184,0.5890388139263701,0.5373613572588982,529
+S2,2025-08-22,morphology_color_texture,morphology+color+glcm,random_forest,313,22,"{""n_estimators"": 300, ""max_depth"": 10, ""min_samples_leaf"": 2, ""max_features"": 0.5}",0.6162570888468809,0.6897237145316231,0.6243328109332487,529
+S3,2025-09-05,morphology_color_texture,morphology+color+glcm,rbf_svm,313,22,"{""C"": 100.0, ""gamma"": ""scale""}",0.5538656527249683,0.4902080277632268,0.46113339118449126,789
+S3,2025-09-05,morphology_color_texture,morphology+color+glcm,random_forest,313,22,"{""n_estimators"": 300, ""max_depth"": 20, ""min_samples_leaf"": 1, ""max_features"": ""sqrt""}",0.6451204055766794,0.4866790859088528,0.48696636588779346,789

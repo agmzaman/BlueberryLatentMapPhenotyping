@@ -1,0 +1,5 @@
+Experiment: experiments/run_20260915_135736
+train: SSIM=0.679916, MS-SSIM=0.905875
+validation: SSIM=0.672815, MS-SSIM=0.903410
+test: SSIM=0.684055, MS-SSIM=0.906517
+Reconstruction evaluation completed.

@@ -1,0 +1,49 @@
+fold,held_out_session,split,acquisition_session,size_class,count,split_total,percentage,allocation_rule
+S2,2025-08-22,train,2025-08-07,Very Small,66,1134,5.8201058201058204,stratified
+S2,2025-08-22,train,2025-08-07,Small,126,1134,11.11111111111111,stratified
+S2,2025-08-22,train,2025-08-07,Medium,86,1134,7.583774250440917,stratified
+S2,2025-08-22,train,2025-08-07,Large,67,1134,5.908289241622575,stratified
+S2,2025-08-22,train,2025-08-22,Very Small,0,1134,0.0,outer_test
+S2,2025-08-22,train,2025-08-22,Small,0,1134,0.0,outer_test
+S2,2025-08-22,train,2025-08-22,Medium,0,1134,0.0,outer_test
+S2,2025-08-22,train,2025-08-22,Large,0,1134,0.0,outer_test
+S2,2025-08-22,train,2025-09-05,Very Small,187,1134,16.49029982363316,stratified
+S2,2025-08-22,train,2025-09-05,Small,276,1134,24.33862433862434,stratified
+S2,2025-08-22,train,2025-09-05,Medium,124,1134,10.934744268077601,stratified
+S2,2025-08-22,train,2025-09-05,Large,4,1134,0.3527336860670194,stratified
+S2,2025-08-22,train,2025-09-29,Very Small,86,1134,7.583774250440917,stratified
+S2,2025-08-22,train,2025-09-29,Small,73,1134,6.4373897707231045,stratified
+S2,2025-08-22,train,2025-09-29,Medium,37,1134,3.2627865961199296,stratified
+S2,2025-08-22,train,2025-09-29,Large,2,1134,0.1763668430335097,stratified
+S2,2025-08-22,validation,2025-08-07,Very Small,23,380,6.052631578947368,stratified
+S2,2025-08-22,validation,2025-08-07,Small,42,380,11.052631578947368,stratified
+S2,2025-08-22,validation,2025-08-07,Medium,29,380,7.631578947368421,stratified
+S2,2025-08-22,validation,2025-08-07,Large,22,380,5.7894736842105265,stratified
+S2,2025-08-22,validation,2025-08-22,Very Small,0,380,0.0,outer_test
+S2,2025-08-22,validation,2025-08-22,Small,0,380,0.0,outer_test
+S2,2025-08-22,validation,2025-08-22,Medium,0,380,0.0,outer_test
+S2,2025-08-22,validation,2025-08-22,Large,0,380,0.0,outer_test
+S2,2025-08-22,validation,2025-09-05,Very Small,63,380,16.57894736842105,stratified
+S2,2025-08-22,validation,2025-09-05,Small,92,380,24.210526315789473,stratified
+S2,2025-08-22,validation,2025-09-05,Medium,42,380,11.052631578947368,stratified
+S2,2025-08-22,validation,2025-09-05,Large,1,380,0.2631578947368421,stratified
+S2,2025-08-22,validation,2025-09-29,Very Small,29,380,7.631578947368421,stratified
+S2,2025-08-22,validation,2025-09-29,Small,24,380,6.315789473684211,stratified
+S2,2025-08-22,validation,2025-09-29,Medium,12,380,3.1578947368421053,stratified
+S2,2025-08-22,validation,2025-09-29,Large,1,380,0.2631578947368421,stratified
+S2,2025-08-22,test,2025-08-07,Very Small,0,529,0.0,stratified
+S2,2025-08-22,test,2025-08-07,Small,0,529,0.0,stratified
+S2,2025-08-22,test,2025-08-07,Medium,0,529,0.0,stratified
+S2,2025-08-22,test,2025-08-07,Large,0,529,0.0,stratified
+S2,2025-08-22,test,2025-08-22,Very Small,192,529,36.294896030245745,outer_test
+S2,2025-08-22,test,2025-08-22,Small,216,529,40.831758034026464,outer_test
+S2,2025-08-22,test,2025-08-22,Medium,92,529,17.391304347826086,outer_test
+S2,2025-08-22,test,2025-08-22,Large,29,529,5.482041587901701,outer_test
+S2,2025-08-22,test,2025-09-05,Very Small,0,529,0.0,stratified
+S2,2025-08-22,test,2025-09-05,Small,0,529,0.0,stratified
+S2,2025-08-22,test,2025-09-05,Medium,0,529,0.0,stratified
+S2,2025-08-22,test,2025-09-05,Large,0,529,0.0,stratified
+S2,2025-08-22,test,2025-09-29,Very Small,0,529,0.0,stratified
+S2,2025-08-22,test,2025-09-29,Small,0,529,0.0,stratified
+S2,2025-08-22,test,2025-09-29,Medium,0,529,0.0,stratified
+S2,2025-08-22,test,2025-09-29,Large,0,529,0.0,stratified

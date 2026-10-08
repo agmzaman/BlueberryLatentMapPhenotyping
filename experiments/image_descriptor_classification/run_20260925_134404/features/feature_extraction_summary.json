@@ -1,0 +1,21 @@
+{
+  "images": 2043,
+  "feature_count": 22,
+  "group_counts": {
+    "morphology": 6,
+    "color": 6,
+    "glcm": 10
+  },
+  "configuration_counts": {
+    "morphology_color_texture": 22
+  },
+  "fallback_masks": 1,
+  "constant_features": [],
+  "foreground_fraction_minimum": 0.00074005126953125,
+  "foreground_fraction_median": 0.3747100830078125,
+  "foreground_fraction_maximum": 0.976898193359375,
+  "feature_csv": "experiments/image_descriptor_classification/run_20260925_134404/features/image_descriptors.csv",
+  "mask_check_csv": "experiments/image_descriptor_classification/run_20260925_134404/features/mask_check.csv",
+  "feature_check_csv": "experiments/image_descriptor_classification/run_20260925_134404/features/feature_check.csv",
+  "feature_schema": "experiments/image_descriptor_classification/run_20260925_134404/features/feature_schema.json"
+}

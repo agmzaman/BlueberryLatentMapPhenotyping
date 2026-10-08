@@ -1,0 +1,31 @@
+{
+  "run": "stratified_random",
+  "held_out_session": null,
+  "seed": 313,
+  "best_epoch": 27,
+  "epochs_trained": 37,
+  "best_validation_loss": 0.3214648582023047,
+  "metrics": {
+    "train": {
+      "loss": 0.002972500475921801,
+      "samples": 1225,
+      "accuracy": 1.0,
+      "balanced_accuracy": 1.0,
+      "macro_f1": 1.0
+    },
+    "validation": {
+      "loss": 0.3214648582023047,
+      "samples": 409,
+      "accuracy": 0.8801955990220048,
+      "balanced_accuracy": 0.8827473780209758,
+      "macro_f1": 0.8845373008727928
+    },
+    "test": {
+      "loss": 0.39065850232807525,
+      "samples": 409,
+      "accuracy": 0.8533007334963325,
+      "balanced_accuracy": 0.8749170437405732,
+      "macro_f1": 0.8665269242192319
+    }
+  }
+}

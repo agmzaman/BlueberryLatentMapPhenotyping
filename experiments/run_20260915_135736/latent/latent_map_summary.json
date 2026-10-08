@@ -1,0 +1,50 @@
+{
+  "train": {
+    "samples": 1225,
+    "mean_shape": [
+      1225,
+      5,
+      64,
+      64
+    ],
+    "log_variance_shape": [
+      1225,
+      5,
+      64,
+      64
+    ],
+    "path": "experiments/run_20260915_135736/latent/train_latent_maps.npz"
+  },
+  "validation": {
+    "samples": 409,
+    "mean_shape": [
+      409,
+      5,
+      64,
+      64
+    ],
+    "log_variance_shape": [
+      409,
+      5,
+      64,
+      64
+    ],
+    "path": "experiments/run_20260915_135736/latent/validation_latent_maps.npz"
+  },
+  "test": {
+    "samples": 409,
+    "mean_shape": [
+      409,
+      5,
+      64,
+      64
+    ],
+    "log_variance_shape": [
+      409,
+      5,
+      64,
+      64
+    ],
+    "path": "experiments/run_20260915_135736/latent/test_latent_maps.npz"
+  }
+}

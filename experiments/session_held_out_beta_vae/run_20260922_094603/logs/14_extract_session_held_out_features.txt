@@ -1,0 +1,73 @@
+Experiment: experiments/session_held_out_beta_vae/run_20260922_094603
+
+Extracting latent-map features: S1
+Extracted features for 100 samples.
+Extracted features for 200 samples.
+Extracted features for 300 samples.
+Extracted features for 400 samples.
+Extracted features for 500 samples.
+Extracted features for 600 samples.
+Extracted features for 700 samples.
+Extracted features for 800 samples.
+Extracted features for 900 samples.
+Extracted features for 1000 samples.
+Extracted features for 1100 samples.
+Saved train features -> experiments/session_held_out_beta_vae/run_20260922_094603/S1/features/train_features.csv
+Extracted features for 100 samples.
+Extracted features for 200 samples.
+Extracted features for 300 samples.
+Saved validation features -> experiments/session_held_out_beta_vae/run_20260922_094603/S1/features/validation_features.csv
+Extracted features for 100 samples.
+Extracted features for 200 samples.
+Extracted features for 300 samples.
+Extracted features for 400 samples.
+Saved test features -> experiments/session_held_out_beta_vae/run_20260922_094603/S1/features/test_features.csv
+
+Extracting latent-map features: S2
+Extracted features for 100 samples.
+Extracted features for 200 samples.
+Extracted features for 300 samples.
+Extracted features for 400 samples.
+Extracted features for 500 samples.
+Extracted features for 600 samples.
+Extracted features for 700 samples.
+Extracted features for 800 samples.
+Extracted features for 900 samples.
+Extracted features for 1000 samples.
+Extracted features for 1100 samples.
+Saved train features -> experiments/session_held_out_beta_vae/run_20260922_094603/S2/features/train_features.csv
+Extracted features for 100 samples.
+Extracted features for 200 samples.
+Extracted features for 300 samples.
+Saved validation features -> experiments/session_held_out_beta_vae/run_20260922_094603/S2/features/validation_features.csv
+Extracted features for 100 samples.
+Extracted features for 200 samples.
+Extracted features for 300 samples.
+Extracted features for 400 samples.
+Extracted features for 500 samples.
+Saved test features -> experiments/session_held_out_beta_vae/run_20260922_094603/S2/features/test_features.csv
+
+Extracting latent-map features: S3
+Extracted features for 100 samples.
+Extracted features for 200 samples.
+Extracted features for 300 samples.
+Extracted features for 400 samples.
+Extracted features for 500 samples.
+Extracted features for 600 samples.
+Extracted features for 700 samples.
+Extracted features for 800 samples.
+Extracted features for 900 samples.
+Saved train features -> experiments/session_held_out_beta_vae/run_20260922_094603/S3/features/train_features.csv
+Extracted features for 100 samples.
+Extracted features for 200 samples.
+Extracted features for 300 samples.
+Saved validation features -> experiments/session_held_out_beta_vae/run_20260922_094603/S3/features/validation_features.csv
+Extracted features for 100 samples.
+Extracted features for 200 samples.
+Extracted features for 300 samples.
+Extracted features for 400 samples.
+Extracted features for 500 samples.
+Extracted features for 600 samples.
+Extracted features for 700 samples.
+Saved test features -> experiments/session_held_out_beta_vae/run_20260922_094603/S3/features/test_features.csv
+Session-held-out feature extraction completed.

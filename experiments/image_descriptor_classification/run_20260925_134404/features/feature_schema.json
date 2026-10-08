@@ -1,0 +1,127 @@
+{
+  "identifier_column": "image_filename",
+  "feature_count": 22,
+  "group_counts": {
+    "morphology": 6,
+    "color": 6,
+    "glcm": 10
+  },
+  "feature_groups": {
+    "morphology": [
+      "morphology_area_fraction",
+      "morphology_width_fraction",
+      "morphology_height_fraction",
+      "morphology_normalized_perimeter",
+      "morphology_solidity",
+      "morphology_eccentricity"
+    ],
+    "color": [
+      "color_exg_mean",
+      "color_exg_std",
+      "color_hsv_saturation_mean",
+      "color_hsv_saturation_std",
+      "color_hsv_value_mean",
+      "color_hsv_value_std"
+    ],
+    "glcm": [
+      "glcm_contrast_mean",
+      "glcm_contrast_std",
+      "glcm_dissimilarity_mean",
+      "glcm_dissimilarity_std",
+      "glcm_homogeneity_mean",
+      "glcm_homogeneity_std",
+      "glcm_energy_mean",
+      "glcm_energy_std",
+      "glcm_correlation_mean",
+      "glcm_correlation_std"
+    ]
+  },
+  "feature_columns": [
+    "morphology_area_fraction",
+    "morphology_width_fraction",
+    "morphology_height_fraction",
+    "morphology_normalized_perimeter",
+    "morphology_solidity",
+    "morphology_eccentricity",
+    "color_exg_mean",
+    "color_exg_std",
+    "color_hsv_saturation_mean",
+    "color_hsv_saturation_std",
+    "color_hsv_value_mean",
+    "color_hsv_value_std",
+    "glcm_contrast_mean",
+    "glcm_contrast_std",
+    "glcm_dissimilarity_mean",
+    "glcm_dissimilarity_std",
+    "glcm_homogeneity_mean",
+    "glcm_homogeneity_std",
+    "glcm_energy_mean",
+    "glcm_energy_std",
+    "glcm_correlation_mean",
+    "glcm_correlation_std"
+  ],
+  "configuration_counts": {
+    "morphology_color_texture": 22
+  },
+  "configurations": {
+    "morphology_color_texture": [
+      "morphology_area_fraction",
+      "morphology_width_fraction",
+      "morphology_height_fraction",
+      "morphology_normalized_perimeter",
+      "morphology_solidity",
+      "morphology_eccentricity",
+      "color_exg_mean",
+      "color_exg_std",
+      "color_hsv_saturation_mean",
+      "color_hsv_saturation_std",
+      "color_hsv_value_mean",
+      "color_hsv_value_std",
+      "glcm_contrast_mean",
+      "glcm_contrast_std",
+      "glcm_dissimilarity_mean",
+      "glcm_dissimilarity_std",
+      "glcm_homogeneity_mean",
+      "glcm_homogeneity_std",
+      "glcm_energy_mean",
+      "glcm_energy_std",
+      "glcm_correlation_mean",
+      "glcm_correlation_std"
+    ]
+  },
+  "glcm_offsets": [
+    {
+      "row_offset": 0,
+      "column_offset": 1
+    },
+    {
+      "row_offset": -1,
+      "column_offset": 1
+    },
+    {
+      "row_offset": -1,
+      "column_offset": 0
+    },
+    {
+      "row_offset": -1,
+      "column_offset": -1
+    },
+    {
+      "row_offset": 0,
+      "column_offset": 2
+    },
+    {
+      "row_offset": -2,
+      "column_offset": 2
+    },
+    {
+      "row_offset": -2,
+      "column_offset": 0
+    },
+    {
+      "row_offset": -2,
+      "column_offset": -2
+    }
+  ],
+  "population_standard_deviation_ddof": 0
+}

@@ -1,0 +1,6 @@
+{
+  "checkpoint_epoch": 172,
+  "checkpoint_validation_reconstruction_loss": 70102.96107121027,
+  "saved_reconstructions": 409,
+  "metrics_csv": "experiments/run_20260915_135736/vae/metrics/reconstruction_metrics.csv"
+}

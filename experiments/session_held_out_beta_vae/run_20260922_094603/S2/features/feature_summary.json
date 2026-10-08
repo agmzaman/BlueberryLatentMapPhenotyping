@@ -1,0 +1,17 @@
+{
+  "train": {
+    "samples": 1134,
+    "feature_count": 300,
+    "path": "experiments/session_held_out_beta_vae/run_20260922_094603/S2/features/train_features.csv"
+  },
+  "validation": {
+    "samples": 380,
+    "feature_count": 300,
+    "path": "experiments/session_held_out_beta_vae/run_20260922_094603/S2/features/validation_features.csv"
+  },
+  "test": {
+    "samples": 529,
+    "feature_count": 300,
+    "path": "experiments/session_held_out_beta_vae/run_20260922_094603/S2/features/test_features.csv"
+  }
+}

@@ -1,0 +1,229 @@
+project:
+  name: BlueberryLatentMapPhenotyping
+dataset:
+  root: C:/path/to/blueberry_canopy_dataset
+  annotation_csv: annotations/blueberry_annotations_labeled.csv
+  image_directory: images
+  image_column: image_filename
+  label_column: size_class
+  classes:
+  - Very Small
+  - Small
+  - Medium
+  - Large
+  expected_total: 2043
+paths:
+  train_split: data/splits/train.csv
+  validation_split: data/splits/validation.csv
+  test_split: data/splits/test.csv
+  split_summary: data/splits/split_summary.csv
+  session_held_out_splits_dir: data/session_held_out_splits
+  experiments_dir: experiments
+  efficientnet_experiments_dir: experiments/efficientnet_b0
+  session_held_out_beta_vae_experiments_dir: experiments/session_held_out_beta_vae
+  current_run_file: experiments/current_run.txt
+split:
+  seed: 131
+  stratified: true
+  train_fraction: 0.6
+  validation_fraction: 0.2
+  test_fraction: 0.2
+session_held_out:
+  seed: 131
+  train_fraction: 0.75
+  validation_fraction: 0.25
+  session_column: acquisition_session
+  check_file: session_split_check.csv
+  train_file: train.csv
+  validation_file: validation.csv
+  test_file: test.csv
+  summary_file: split_summary.csv
+  folds:
+    S1: '2025-08-07'
+    S2: '2025-08-22'
+    S3: '2025-09-05'
+runtime:
+  preferred_gpu: 0
+  train_workers: 4
+  evaluation_workers: 4
+  pin_memory: true
+vae:
+  input_shape:
+  - 3
+  - 512
+  - 512
+  latent_channels: 5
+  scaling_factor: 1.0
+  log_variance_min: -30.0
+  log_variance_max: 20.0
+  epochs: 175
+  batch_size: 4
+  seed: 131
+  beta_start: 0.0001
+  beta_final: 0.8
+  warmup_epochs: 50
+  save_after_epoch: 10
+  early_stopping_patience: 20
+  optimizer:
+    type: Adam
+    lr: 0.0003
+    weight_decay: 0.0
+  scheduler:
+    name: ReduceLROnPlateau
+    monitor: validation_reconstruction_loss
+    mode: min
+    threshold: 0.005
+    lr_min: 1.0e-05
+    lr_update_factor: 0.5
+    lr_update_patience: 10
+efficientnet:
+  architecture: efficientnet_b0
+  pretrained_weights: IMAGENET1K_V1
+  input_shape:
+  - 3
+  - 512
+  - 512
+  normalization: imagenet
+  seed: 313
+  epochs: 50
+  batch_size: 32
+  early_stopping_patience: 10
+  classifier_dropout: 0.2
+  unfreeze_last_stages: 3
+  checkpoint_monitor: validation_loss
+  optimizer:
+    type: AdamW
+    backbone_lr: 0.0001
+    classifier_lr: 0.0005
+    weight_decay: 0.0001
+  scheduler:
+    name: ReduceLROnPlateau
+    monitor: validation_loss
+    mode: min
+    threshold: 0.0001
+    threshold_mode: rel
+    lr_min: 1.0e-06
+    lr_update_factor: 0.5
+    lr_update_patience: 5
+  runs:
+  - stratified_random
+  - S1
+  - S2
+  - S3
+  predictions:
+    directory: predictions
+    files:
+      train: train_predictions.csv
+      validation: validation_predictions.csv
+      test: test_predictions.csv
+  experiment_summary_file: experiment_summary.csv
+features:
+  safe_skew_epsilon: 1.0e-12
+  global_statistics:
+  - mean
+  - median
+  - std
+  - mad
+  - p10
+  - p90
+  - abs_mean
+  - positive_frac
+  - skewness
+  quadrant_statistics:
+  - mean
+  - std
+  region_grid_size: 4
+  center_fraction: 0.25
+  center_edge_epsilon: 1.0e-08
+  kl_statistics:
+  - mean
+  - std
+  - p90
+  kl_quadrant_statistics:
+  - mean
+classifier:
+  seed: 313
+  epochs: 100
+  batch_size: 16
+  early_stopping_patience: 13
+  hidden_dimensions:
+  - 128
+  - 64
+  - 32
+  dropout: 0.15
+  standardize_features: true
+  optimizer:
+    type: AdamW
+    lr: 0.0001
+    weight_decay: 0.0001
+  scheduler:
+    name: ReduceLROnPlateau
+    monitor: validation_loss
+    mode: min
+    threshold: 0.0001
+    lr_min: 1.0e-06
+    lr_update_factor: 0.5
+    lr_update_patience: 5
+  runs:
+    C1:
+    - mu_global
+    C2:
+    - mu_global
+    - mu_quadrant
+    - mu_region16
+    - mu_center_edge
+    C3:
+    - mu_global
+    - mu_quadrant
+    - mu_region16
+    - mu_center_edge
+    - kl_global
+    - kl_quadrant
+    C4:
+    - mu_global
+    - mu_quadrant
+    - mu_region16
+    - mu_center_edge
+    - logvar_global
+    - logvar_quadrant
+    C5:
+    - mu_global
+    - mu_quadrant
+    - mu_region16
+    - mu_center_edge
+    - logvar_global
+    - logvar_quadrant
+    - kl_global
+    - kl_quadrant
+  expected_feature_counts:
+    C1: 45
+    C2: 180
+    C3: 215
+    C4: 265
+    C5: 300
+evaluation:
+  vae_splits:
+  - train
+  - validation
+  - test
+  reconstruction_split: test
+  maximum_saved_reconstructions: 409
+  reference_classifier: C5
+figures:
+  formats:
+  - png
+  - pdf
+  - svg
+  png_dpi: 600
+  font_family: Calibri
+controls:
+  seed_robustness:
+    run: C5
+    first_seed: 313
+    repetitions: 50
+    keep_models: false
+  shuffled_labels:
+    run: C5
+    first_seed: 313
+    repetitions: 50
+    keep_models: false

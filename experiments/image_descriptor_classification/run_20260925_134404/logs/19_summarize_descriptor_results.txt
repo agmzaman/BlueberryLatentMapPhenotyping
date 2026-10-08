@@ -1,0 +1,6 @@
+Experiment: experiments/image_descriptor_classification/run_20260925_134404
+Saved summary: experiments/image_descriptor_classification/run_20260925_134404/summaries/rbf_svm_main_results.csv
+Saved summary: experiments/image_descriptor_classification/run_20260925_134404/summaries/random_forest_results.csv
+Saved summary: experiments/image_descriptor_classification/run_20260925_134404/summaries/selected_hyperparameters.csv
+Saved summary: experiments/image_descriptor_classification/run_20260925_134404/summaries/session_held_out_mean_sd.csv
+Image-descriptor result summary completed.

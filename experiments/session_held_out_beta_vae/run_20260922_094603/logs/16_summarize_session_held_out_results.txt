@@ -1,0 +1,4 @@
+Experiment: experiments/session_held_out_beta_vae/run_20260922_094603
+Saved C5 fold results: experiments/session_held_out_beta_vae/run_20260922_094603/c5_fold_results.csv
+Saved unweighted mean and sample SD: experiments/session_held_out_beta_vae/run_20260922_094603/c5_unweighted_summary.csv
+Session-held-out result summary completed.

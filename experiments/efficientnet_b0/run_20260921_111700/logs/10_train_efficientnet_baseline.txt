@@ -1,0 +1,148 @@
+Experiment: experiments/efficientnet_b0/run_20260921_111700
+
+Starting independent run: stratified_random
+Initialized a fresh model, classifier, optimizer, and scheduler.
+Rows: train=1225, validation=409, test=409
+Epoch 001/50 | train=1.000758/0.5641 | validation=0.614989/0.7751 | backbone_lr=0.00010000 | classifier_lr=0.00050000 | saved=True
+Saved best checkpoint: experiments/efficientnet_b0/run_20260921_111700/stratified_random/checkpoints/best_model.pt
+Epoch 002/50 | train=0.574108/0.7739 | validation=0.437163/0.8215 | backbone_lr=0.00010000 | classifier_lr=0.00050000 | saved=True
+Saved best checkpoint: experiments/efficientnet_b0/run_20260921_111700/stratified_random/checkpoints/best_model.pt
+Epoch 003/50 | train=0.439744/0.8278 | validation=0.373913/0.8264 | backbone_lr=0.00010000 | classifier_lr=0.00050000 | saved=True
+Saved best checkpoint: experiments/efficientnet_b0/run_20260921_111700/stratified_random/checkpoints/best_model.pt
+Epoch 004/50 | train=0.383212/0.8449 | validation=0.397998/0.8240 | backbone_lr=0.00010000 | classifier_lr=0.00050000 | saved=False
+Epoch 005/50 | train=0.313679/0.8759 | validation=0.386414/0.8411 | backbone_lr=0.00010000 | classifier_lr=0.00050000 | saved=False
+Epoch 006/50 | train=0.265346/0.9069 | validation=0.379426/0.8509 | backbone_lr=0.00010000 | classifier_lr=0.00050000 | saved=False
+Epoch 007/50 | train=0.272289/0.8971 | validation=0.386942/0.8411 | backbone_lr=0.00010000 | classifier_lr=0.00050000 | saved=False
+Epoch 008/50 | train=0.231370/0.9110 | validation=0.388837/0.8460 | backbone_lr=0.00010000 | classifier_lr=0.00050000 | saved=False
+Epoch 009/50 | train=0.173126/0.9331 | validation=0.382724/0.8582 | backbone_lr=0.00005000 | classifier_lr=0.00025000 | saved=False
+Epoch 010/50 | train=0.174713/0.9363 | validation=0.355682/0.8557 | backbone_lr=0.00005000 | classifier_lr=0.00025000 | saved=True
+Saved best checkpoint: experiments/efficientnet_b0/run_20260921_111700/stratified_random/checkpoints/best_model.pt
+Epoch 011/50 | train=0.151059/0.9445 | validation=0.338634/0.8460 | backbone_lr=0.00005000 | classifier_lr=0.00025000 | saved=True
+Saved best checkpoint: experiments/efficientnet_b0/run_20260921_111700/stratified_random/checkpoints/best_model.pt
+Epoch 012/50 | train=0.125039/0.9616 | validation=0.326348/0.8631 | backbone_lr=0.00005000 | classifier_lr=0.00025000 | saved=True
+Saved best checkpoint: experiments/efficientnet_b0/run_20260921_111700/stratified_random/checkpoints/best_model.pt
+Epoch 013/50 | train=0.121264/0.9518 | validation=0.332214/0.8680 | backbone_lr=0.00005000 | classifier_lr=0.00025000 | saved=False
+Epoch 014/50 | train=0.097707/0.9665 | validation=0.332074/0.8655 | backbone_lr=0.00005000 | classifier_lr=0.00025000 | saved=False
+Epoch 015/50 | train=0.114819/0.9624 | validation=0.336113/0.8582 | backbone_lr=0.00005000 | classifier_lr=0.00025000 | saved=False
+Epoch 016/50 | train=0.088747/0.9722 | validation=0.360417/0.8509 | backbone_lr=0.00005000 | classifier_lr=0.00025000 | saved=False
+Epoch 017/50 | train=0.086877/0.9722 | validation=0.362878/0.8631 | backbone_lr=0.00005000 | classifier_lr=0.00025000 | saved=False
+Epoch 018/50 | train=0.105461/0.9624 | validation=0.322820/0.8680 | backbone_lr=0.00005000 | classifier_lr=0.00025000 | saved=True
+Saved best checkpoint: experiments/efficientnet_b0/run_20260921_111700/stratified_random/checkpoints/best_model.pt
+Epoch 019/50 | train=0.072991/0.9722 | validation=0.380193/0.8582 | backbone_lr=0.00005000 | classifier_lr=0.00025000 | saved=False
+Epoch 020/50 | train=0.064785/0.9796 | validation=0.358751/0.8655 | backbone_lr=0.00005000 | classifier_lr=0.00025000 | saved=False
+Epoch 021/50 | train=0.093073/0.9665 | validation=0.348620/0.8631 | backbone_lr=0.00005000 | classifier_lr=0.00025000 | saved=False
+Epoch 022/50 | train=0.082284/0.9731 | validation=0.343374/0.8655 | backbone_lr=0.00005000 | classifier_lr=0.00025000 | saved=False
+Epoch 023/50 | train=0.069423/0.9771 | validation=0.374167/0.8680 | backbone_lr=0.00005000 | classifier_lr=0.00025000 | saved=False
+Epoch 024/50 | train=0.063828/0.9739 | validation=0.355403/0.8631 | backbone_lr=0.00002500 | classifier_lr=0.00012500 | saved=False
+Epoch 025/50 | train=0.046808/0.9886 | validation=0.371223/0.8557 | backbone_lr=0.00002500 | classifier_lr=0.00012500 | saved=False
+Epoch 026/50 | train=0.046339/0.9886 | validation=0.346585/0.8729 | backbone_lr=0.00002500 | classifier_lr=0.00012500 | saved=False
+Epoch 027/50 | train=0.052250/0.9837 | validation=0.321465/0.8802 | backbone_lr=0.00002500 | classifier_lr=0.00012500 | saved=True
+Saved best checkpoint: experiments/efficientnet_b0/run_20260921_111700/stratified_random/checkpoints/best_model.pt
+Epoch 028/50 | train=0.051208/0.9845 | validation=0.329264/0.8778 | backbone_lr=0.00002500 | classifier_lr=0.00012500 | saved=False
+Epoch 029/50 | train=0.054150/0.9820 | validation=0.348700/0.8655 | backbone_lr=0.00002500 | classifier_lr=0.00012500 | saved=False
+Epoch 030/50 | train=0.044568/0.9878 | validation=0.359364/0.8655 | backbone_lr=0.00002500 | classifier_lr=0.00012500 | saved=False
+Epoch 031/50 | train=0.051893/0.9869 | validation=0.363264/0.8753 | backbone_lr=0.00002500 | classifier_lr=0.00012500 | saved=False
+Epoch 032/50 | train=0.048104/0.9861 | validation=0.358792/0.8680 | backbone_lr=0.00002500 | classifier_lr=0.00012500 | saved=False
+Epoch 033/50 | train=0.048183/0.9837 | validation=0.380366/0.8606 | backbone_lr=0.00001250 | classifier_lr=0.00006250 | saved=False
+Epoch 034/50 | train=0.064166/0.9780 | validation=0.356148/0.8704 | backbone_lr=0.00001250 | classifier_lr=0.00006250 | saved=False
+Epoch 035/50 | train=0.047349/0.9853 | validation=0.374204/0.8680 | backbone_lr=0.00001250 | classifier_lr=0.00006250 | saved=False
+Epoch 036/50 | train=0.046836/0.9894 | validation=0.334009/0.8729 | backbone_lr=0.00001250 | classifier_lr=0.00006250 | saved=False
+Epoch 037/50 | train=0.044754/0.9878 | validation=0.337038/0.8778 | backbone_lr=0.00001250 | classifier_lr=0.00006250 | saved=False
+Early stopping at epoch 37.
+Completed stratified_random: test_accuracy=0.8533, test_macro_f1=0.8665
+
+Starting independent run: S1
+Initialized a fresh model, classifier, optimizer, and scheduler.
+Rows: train=1185, validation=397, test=461
+Epoch 001/50 | train=0.993985/0.5629 | validation=0.626398/0.7809 | backbone_lr=0.00010000 | classifier_lr=0.00050000 | saved=True
+Saved best checkpoint: experiments/efficientnet_b0/run_20260921_111700/S1/checkpoints/best_model.pt
+Epoch 002/50 | train=0.586218/0.7679 | validation=0.411264/0.8438 | backbone_lr=0.00010000 | classifier_lr=0.00050000 | saved=True
+Saved best checkpoint: experiments/efficientnet_b0/run_20260921_111700/S1/checkpoints/best_model.pt
+Epoch 003/50 | train=0.442935/0.8363 | validation=0.401971/0.8363 | backbone_lr=0.00010000 | classifier_lr=0.00050000 | saved=True
+Saved best checkpoint: experiments/efficientnet_b0/run_20260921_111700/S1/checkpoints/best_model.pt
+Epoch 004/50 | train=0.347541/0.8616 | validation=0.356874/0.8489 | backbone_lr=0.00010000 | classifier_lr=0.00050000 | saved=True
+Saved best checkpoint: experiments/efficientnet_b0/run_20260921_111700/S1/checkpoints/best_model.pt
+Epoch 005/50 | train=0.324434/0.8675 | validation=0.324144/0.8514 | backbone_lr=0.00010000 | classifier_lr=0.00050000 | saved=True
+Saved best checkpoint: experiments/efficientnet_b0/run_20260921_111700/S1/checkpoints/best_model.pt
+Epoch 006/50 | train=0.260195/0.8911 | validation=0.415314/0.8363 | backbone_lr=0.00010000 | classifier_lr=0.00050000 | saved=False
+Epoch 007/50 | train=0.240025/0.9063 | validation=0.346889/0.8514 | backbone_lr=0.00010000 | classifier_lr=0.00050000 | saved=False
+Epoch 008/50 | train=0.178149/0.9376 | validation=0.307251/0.8514 | backbone_lr=0.00010000 | classifier_lr=0.00050000 | saved=True
+Saved best checkpoint: experiments/efficientnet_b0/run_20260921_111700/S1/checkpoints/best_model.pt
+Epoch 009/50 | train=0.174057/0.9401 | validation=0.369336/0.8615 | backbone_lr=0.00010000 | classifier_lr=0.00050000 | saved=False
+Epoch 010/50 | train=0.161172/0.9392 | validation=0.424224/0.8363 | backbone_lr=0.00010000 | classifier_lr=0.00050000 | saved=False
+Epoch 011/50 | train=0.144448/0.9485 | validation=0.360383/0.8615 | backbone_lr=0.00010000 | classifier_lr=0.00050000 | saved=False
+Epoch 012/50 | train=0.172575/0.9350 | validation=0.449057/0.8438 | backbone_lr=0.00010000 | classifier_lr=0.00050000 | saved=False
+Epoch 013/50 | train=0.137964/0.9511 | validation=0.384158/0.8539 | backbone_lr=0.00010000 | classifier_lr=0.00050000 | saved=False
+Epoch 014/50 | train=0.099763/0.9705 | validation=0.417185/0.8539 | backbone_lr=0.00005000 | classifier_lr=0.00025000 | saved=False
+Epoch 015/50 | train=0.107696/0.9620 | validation=0.409427/0.8463 | backbone_lr=0.00005000 | classifier_lr=0.00025000 | saved=False
+Epoch 016/50 | train=0.084016/0.9781 | validation=0.396996/0.8489 | backbone_lr=0.00005000 | classifier_lr=0.00025000 | saved=False
+Epoch 017/50 | train=0.078547/0.9755 | validation=0.361994/0.8766 | backbone_lr=0.00005000 | classifier_lr=0.00025000 | saved=False
+Epoch 018/50 | train=0.080191/0.9722 | validation=0.384239/0.8589 | backbone_lr=0.00005000 | classifier_lr=0.00025000 | saved=False
+Early stopping at epoch 18.
+Completed S1: test_accuracy=0.8113, test_macro_f1=0.8220
+
+Starting independent run: S2
+Initialized a fresh model, classifier, optimizer, and scheduler.
+Rows: train=1134, validation=380, test=529
+Epoch 001/50 | train=1.029824/0.5485 | validation=0.647593/0.7447 | backbone_lr=0.00010000 | classifier_lr=0.00050000 | saved=True
+Saved best checkpoint: experiments/efficientnet_b0/run_20260921_111700/S2/checkpoints/best_model.pt
+Epoch 002/50 | train=0.591499/0.7707 | validation=0.425717/0.8474 | backbone_lr=0.00010000 | classifier_lr=0.00050000 | saved=True
+Saved best checkpoint: experiments/efficientnet_b0/run_20260921_111700/S2/checkpoints/best_model.pt
+Epoch 003/50 | train=0.415258/0.8316 | validation=0.380594/0.8395 | backbone_lr=0.00010000 | classifier_lr=0.00050000 | saved=True
+Saved best checkpoint: experiments/efficientnet_b0/run_20260921_111700/S2/checkpoints/best_model.pt
+Epoch 004/50 | train=0.361066/0.8510 | validation=0.388150/0.8553 | backbone_lr=0.00010000 | classifier_lr=0.00050000 | saved=False
+Epoch 005/50 | train=0.298996/0.8801 | validation=0.406608/0.8316 | backbone_lr=0.00010000 | classifier_lr=0.00050000 | saved=False
+Epoch 006/50 | train=0.249559/0.9048 | validation=0.373845/0.8605 | backbone_lr=0.00010000 | classifier_lr=0.00050000 | saved=True
+Saved best checkpoint: experiments/efficientnet_b0/run_20260921_111700/S2/checkpoints/best_model.pt
+Epoch 007/50 | train=0.227146/0.9171 | validation=0.458775/0.8579 | backbone_lr=0.00010000 | classifier_lr=0.00050000 | saved=False
+Epoch 008/50 | train=0.202944/0.9189 | validation=0.435496/0.8395 | backbone_lr=0.00010000 | classifier_lr=0.00050000 | saved=False
+Epoch 009/50 | train=0.168731/0.9409 | validation=0.356736/0.8553 | backbone_lr=0.00010000 | classifier_lr=0.00050000 | saved=True
+Saved best checkpoint: experiments/efficientnet_b0/run_20260921_111700/S2/checkpoints/best_model.pt
+Epoch 010/50 | train=0.129165/0.9559 | validation=0.439621/0.8421 | backbone_lr=0.00010000 | classifier_lr=0.00050000 | saved=False
+Epoch 011/50 | train=0.118572/0.9612 | validation=0.403984/0.8500 | backbone_lr=0.00010000 | classifier_lr=0.00050000 | saved=False
+Epoch 012/50 | train=0.118416/0.9568 | validation=0.442871/0.8526 | backbone_lr=0.00010000 | classifier_lr=0.00050000 | saved=False
+Epoch 013/50 | train=0.137299/0.9515 | validation=0.412468/0.8684 | backbone_lr=0.00010000 | classifier_lr=0.00050000 | saved=False
+Epoch 014/50 | train=0.110228/0.9559 | validation=0.410460/0.8632 | backbone_lr=0.00010000 | classifier_lr=0.00050000 | saved=False
+Epoch 015/50 | train=0.101367/0.9674 | validation=0.403765/0.8605 | backbone_lr=0.00005000 | classifier_lr=0.00025000 | saved=False
+Epoch 016/50 | train=0.100733/0.9656 | validation=0.453287/0.8526 | backbone_lr=0.00005000 | classifier_lr=0.00025000 | saved=False
+Epoch 017/50 | train=0.095048/0.9647 | validation=0.422448/0.8658 | backbone_lr=0.00005000 | classifier_lr=0.00025000 | saved=False
+Epoch 018/50 | train=0.064333/0.9797 | validation=0.439097/0.8579 | backbone_lr=0.00005000 | classifier_lr=0.00025000 | saved=False
+Epoch 019/50 | train=0.068730/0.9832 | validation=0.415903/0.8632 | backbone_lr=0.00005000 | classifier_lr=0.00025000 | saved=False
+Early stopping at epoch 19.
+Completed S2: test_accuracy=0.8204, test_macro_f1=0.8324
+
+Starting independent run: S3
+Initialized a fresh model, classifier, optimizer, and scheduler.
+Rows: train=939, validation=315, test=789
+Epoch 001/50 | train=1.071077/0.5272 | validation=0.708189/0.7016 | backbone_lr=0.00010000 | classifier_lr=0.00050000 | saved=True
+Saved best checkpoint: experiments/efficientnet_b0/run_20260921_111700/S3/checkpoints/best_model.pt
+Epoch 002/50 | train=0.646632/0.7519 | validation=0.457450/0.8286 | backbone_lr=0.00010000 | classifier_lr=0.00050000 | saved=True
+Saved best checkpoint: experiments/efficientnet_b0/run_20260921_111700/S3/checkpoints/best_model.pt
+Epoch 003/50 | train=0.475602/0.8275 | validation=0.382574/0.8571 | backbone_lr=0.00010000 | classifier_lr=0.00050000 | saved=True
+Saved best checkpoint: experiments/efficientnet_b0/run_20260921_111700/S3/checkpoints/best_model.pt
+Epoch 004/50 | train=0.346395/0.8733 | validation=0.347729/0.8635 | backbone_lr=0.00010000 | classifier_lr=0.00050000 | saved=True
+Saved best checkpoint: experiments/efficientnet_b0/run_20260921_111700/S3/checkpoints/best_model.pt
+Epoch 005/50 | train=0.314739/0.8754 | validation=0.335784/0.8762 | backbone_lr=0.00010000 | classifier_lr=0.00050000 | saved=True
+Saved best checkpoint: experiments/efficientnet_b0/run_20260921_111700/S3/checkpoints/best_model.pt
+Epoch 006/50 | train=0.292334/0.8882 | validation=0.371811/0.8444 | backbone_lr=0.00010000 | classifier_lr=0.00050000 | saved=False
+Epoch 007/50 | train=0.256005/0.9031 | validation=0.389020/0.8571 | backbone_lr=0.00010000 | classifier_lr=0.00050000 | saved=False
+Epoch 008/50 | train=0.211677/0.9265 | validation=0.338311/0.8667 | backbone_lr=0.00010000 | classifier_lr=0.00050000 | saved=False
+Epoch 009/50 | train=0.174193/0.9340 | validation=0.336344/0.8540 | backbone_lr=0.00010000 | classifier_lr=0.00050000 | saved=False
+Epoch 010/50 | train=0.152988/0.9436 | validation=0.340308/0.8635 | backbone_lr=0.00010000 | classifier_lr=0.00050000 | saved=False
+Epoch 011/50 | train=0.128747/0.9553 | validation=0.370692/0.8698 | backbone_lr=0.00005000 | classifier_lr=0.00025000 | saved=False
+Epoch 012/50 | train=0.144001/0.9489 | validation=0.310718/0.8794 | backbone_lr=0.00005000 | classifier_lr=0.00025000 | saved=True
+Saved best checkpoint: experiments/efficientnet_b0/run_20260921_111700/S3/checkpoints/best_model.pt
+Epoch 013/50 | train=0.110737/0.9563 | validation=0.355731/0.8730 | backbone_lr=0.00005000 | classifier_lr=0.00025000 | saved=False
+Epoch 014/50 | train=0.096891/0.9617 | validation=0.340397/0.8730 | backbone_lr=0.00005000 | classifier_lr=0.00025000 | saved=False
+Epoch 015/50 | train=0.099480/0.9712 | validation=0.376886/0.8413 | backbone_lr=0.00005000 | classifier_lr=0.00025000 | saved=False
+Epoch 016/50 | train=0.106116/0.9649 | validation=0.347835/0.8635 | backbone_lr=0.00005000 | classifier_lr=0.00025000 | saved=False
+Epoch 017/50 | train=0.064372/0.9830 | validation=0.339921/0.8667 | backbone_lr=0.00005000 | classifier_lr=0.00025000 | saved=False
+Epoch 018/50 | train=0.087555/0.9691 | validation=0.357886/0.8571 | backbone_lr=0.00002500 | classifier_lr=0.00012500 | saved=False
+Epoch 019/50 | train=0.073434/0.9840 | validation=0.356229/0.8571 | backbone_lr=0.00002500 | classifier_lr=0.00012500 | saved=False
+Epoch 020/50 | train=0.070455/0.9819 | validation=0.347100/0.8508 | backbone_lr=0.00002500 | classifier_lr=0.00012500 | saved=False
+Epoch 021/50 | train=0.058376/0.9830 | validation=0.338008/0.8698 | backbone_lr=0.00002500 | classifier_lr=0.00012500 | saved=False
+Epoch 022/50 | train=0.072870/0.9776 | validation=0.358437/0.8667 | backbone_lr=0.00002500 | classifier_lr=0.00012500 | saved=False
+Early stopping at epoch 22.
+Completed S3: test_accuracy=0.7921, test_macro_f1=0.7202
+Saved experiment summary: experiments/efficientnet_b0/run_20260921_111700/experiment_summary.csv
+All EfficientNet runs completed.

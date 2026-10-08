@@ -1,0 +1,17 @@
+{
+  "train": {
+    "samples": 1225,
+    "feature_count": 300,
+    "path": "experiments/run_20260915_135736/features/train_features.csv"
+  },
+  "validation": {
+    "samples": 409,
+    "feature_count": 300,
+    "path": "experiments/run_20260915_135736/features/validation_features.csv"
+  },
+  "test": {
+    "samples": 409,
+    "feature_count": 300,
+    "path": "experiments/run_20260915_135736/features/test_features.csv"
+  }
+}

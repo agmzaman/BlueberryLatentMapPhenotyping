@@ -1,0 +1,25 @@
+seed: 313
+repetitions: 100
+noise_percentages:
+  - 1.0
+  - 2.0
+  - 3.0
+boundary_mode: fixed_original_jenks
+clip_vertices_to_image: true
+
+columns:
+  polygon_points: polygon_points
+  polygon_area: polygon_area
+  image_width: image_width
+  image_height: image_height
+  image_area: image_area
+  relative_area: relative_area
+
+output:
+  directory: experiments/polygon_annotation_sensitivity
+  log_file: 20_run_polygon_annotation_sensitivity.txt
+  boundaries_file: fixed_jenks_boundaries.csv
+  repetitions_file: polygon_sensitivity_repetitions.csv
+  summary_file: polygon_sensitivity_summary.csv
+  transitions_file: polygon_sensitivity_transitions.csv
+  table_file: table_polygon_sensitivity.csv

@@ -1,0 +1,24 @@
+{
+  "font_family": "Calibri",
+  "metrics_table": "experiments/run_20260915_135736/reports/classifier_metrics_summary.csv",
+  "vae_training_figures": [
+    "experiments/run_20260915_135736/reports/vae_training_curves.png",
+    "experiments/run_20260915_135736/reports/vae_training_curves.pdf",
+    "experiments/run_20260915_135736/reports/vae_training_curves.svg"
+  ],
+  "classifier_training_figures": [
+    "experiments/run_20260915_135736/reports/classifier_training_curves.png",
+    "experiments/run_20260915_135736/reports/classifier_training_curves.pdf",
+    "experiments/run_20260915_135736/reports/classifier_training_curves.svg"
+  ],
+  "classifier_comparison_figures": [
+    "experiments/run_20260915_135736/reports/classifier_ablation_comparison.png",
+    "experiments/run_20260915_135736/reports/classifier_ablation_comparison.pdf",
+    "experiments/run_20260915_135736/reports/classifier_ablation_comparison.svg"
+  ],
+  "reference_classifier_figures": [
+    "experiments/run_20260915_135736/reports/reference_classifier_results.png",
+    "experiments/run_20260915_135736/reports/reference_classifier_results.pdf",
+    "experiments/run_20260915_135736/reports/reference_classifier_results.svg"
+  ]
+}

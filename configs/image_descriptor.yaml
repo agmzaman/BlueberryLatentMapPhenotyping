@@ -1,0 +1,71 @@
+image_size: [512, 512]
+seed: 313
+expected_feature_count: 22
+standardize_features: true
+selection_metric: macro_f1
+
+runs:
+  - stratified_random
+  - S1
+  - S2
+  - S3
+
+feature_groups:
+  morphology: 6
+  color: 6
+  glcm: 10
+
+configurations:
+  morphology_color_texture: [morphology, color, glcm]
+
+mask:
+  method: exg_otsu
+  opening_radius: 1
+  closing_radius: 2
+  minimum_component_fraction: 0.0005
+
+color:
+  channels:
+    - exg
+    - hsv_saturation
+    - hsv_value
+  statistics:
+    - mean
+    - std
+
+glcm:
+  levels: 32
+  grid_steps: [1, 2]
+  angles_degrees: [0, 45, 90, 135]
+  grayscale_weights: [0.2126, 0.7152, 0.0722]
+  properties:
+    - contrast
+    - dissimilarity
+    - homogeneity
+    - energy
+    - correlation
+  summaries:
+    - mean
+    - std
+
+rbf_svm:
+  class_weight: null
+  c_values: [0.01, 0.1, 1.0, 10.0, 100.0, 1000.0]
+  gamma_values:
+    - scale
+    - 0.0001
+    - 0.001
+    - 0.01
+    - 0.1
+    - 1.0
+
+random_forest:
+  class_weight: null
+  n_estimators: 300
+  max_depth: [null, 10, 20]
+  min_samples_leaf: [1, 2, 4]
+  max_features:
+    - sqrt
+    - 0.5
+
+output_directory: experiments/image_descriptor_classification

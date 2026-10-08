@@ -1,0 +1,31 @@
+{
+  "run": "S3",
+  "held_out_session": "2025-09-05",
+  "seed": 313,
+  "best_epoch": 12,
+  "epochs_trained": 22,
+  "best_validation_loss": 0.31071811772528146,
+  "metrics": {
+    "train": {
+      "loss": 0.01825144765769648,
+      "samples": 939,
+      "accuracy": 0.9989350372736954,
+      "balanced_accuracy": 0.9993055555555556,
+      "macro_f1": 0.9990029442046132
+    },
+    "validation": {
+      "loss": 0.31071811772528146,
+      "samples": 315,
+      "accuracy": 0.8793650793650793,
+      "balanced_accuracy": 0.8829665977961432,
+      "macro_f1": 0.8865307608299964
+    },
+    "test": {
+      "loss": 0.513494153439772,
+      "samples": 789,
+      "accuracy": 0.7921419518377694,
+      "balanced_accuracy": 0.7048874410686223,
+      "macro_f1": 0.7201676633192065
+    }
+  }
+}

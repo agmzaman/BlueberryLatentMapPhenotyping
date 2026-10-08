@@ -1,0 +1,28 @@
+Experiment: experiments/image_descriptor_classification/run_20260925_134404
+Extracted image descriptors: 100/2043
+Extracted image descriptors: 200/2043
+Extracted image descriptors: 300/2043
+Extracted image descriptors: 400/2043
+Extracted image descriptors: 500/2043
+Extracted image descriptors: 600/2043
+Extracted image descriptors: 700/2043
+Extracted image descriptors: 800/2043
+Extracted image descriptors: 900/2043
+Extracted image descriptors: 1000/2043
+Extracted image descriptors: 1100/2043
+Extracted image descriptors: 1200/2043
+Extracted image descriptors: 1300/2043
+Extracted image descriptors: 1400/2043
+Extracted image descriptors: 1500/2043
+Extracted image descriptors: 1600/2043
+Extracted image descriptors: 1700/2043
+Extracted image descriptors: 1800/2043
+Extracted image descriptors: 1900/2043
+Extracted image descriptors: 2000/2043
+Extracted image descriptors: 2043/2043
+Saved 22 descriptors for 2043 images.
+Configuration counts: morphology_color_texture=22
+Feature table: experiments/image_descriptor_classification/run_20260925_134404/features/image_descriptors.csv
+Feature check: experiments/image_descriptor_classification/run_20260925_134404/features/feature_check.csv
+Mask check: experiments/image_descriptor_classification/run_20260925_134404/features/mask_check.csv
+Image-descriptor extraction completed.

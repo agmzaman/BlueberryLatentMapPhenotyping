@@ -1,0 +1,17 @@
+Experiment: experiments/session_held_out_beta_vae/run_20260922_094603
+
+Extracting latent maps: S1
+Saved train latent maps -> experiments/session_held_out_beta_vae/run_20260922_094603/S1/latent/train_latent_maps.npz
+Saved validation latent maps -> experiments/session_held_out_beta_vae/run_20260922_094603/S1/latent/validation_latent_maps.npz
+Saved test latent maps -> experiments/session_held_out_beta_vae/run_20260922_094603/S1/latent/test_latent_maps.npz
+
+Extracting latent maps: S2
+Saved train latent maps -> experiments/session_held_out_beta_vae/run_20260922_094603/S2/latent/train_latent_maps.npz
+Saved validation latent maps -> experiments/session_held_out_beta_vae/run_20260922_094603/S2/latent/validation_latent_maps.npz
+Saved test latent maps -> experiments/session_held_out_beta_vae/run_20260922_094603/S2/latent/test_latent_maps.npz
+
+Extracting latent maps: S3
+Saved train latent maps -> experiments/session_held_out_beta_vae/run_20260922_094603/S3/latent/train_latent_maps.npz
+Saved validation latent maps -> experiments/session_held_out_beta_vae/run_20260922_094603/S3/latent/validation_latent_maps.npz
+Saved test latent maps -> experiments/session_held_out_beta_vae/run_20260922_094603/S3/latent/test_latent_maps.npz
+Session-held-out latent-map extraction completed.

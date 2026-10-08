@@ -1,0 +1,4 @@
+lower_class,upper_class,fixed_boundary_relative_area,next_class_minimum_relative_area
+Very Small,Small,0.170401765,0.170558589
+Small,Medium,0.306483851,0.307218277
+Medium,Large,0.540708139,0.542964868

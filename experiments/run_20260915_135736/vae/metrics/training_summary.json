@@ -1,0 +1,6 @@
+{
+  "completed_epochs": 175,
+  "best_epoch": 172,
+  "best_validation_reconstruction_loss": 70102.96107121027,
+  "checkpoint": "experiments/run_20260915_135736/vae/checkpoints/best_beta_vae.pt"
+}
