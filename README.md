@@ -13,7 +13,8 @@ BlueberryLatentMapPhenotyping/
 ├── configs/
 │   ├── config.example.yaml
 │   ├── image_descriptor.yaml
-│   └── polygon_sensitivity.yaml
+│   ├── polygon_sensitivity.yaml
+│   └── uncertainty.yaml
 ├── data/
 │   ├── splits/
 │   └── session_held_out_splits/
@@ -73,8 +74,15 @@ Run a stage only after its required inputs exist.
 | `17`–`19` | Extract 22 image descriptors, select classical models by validation results and summarize     |
 | `20_run_polygon_annotation_sensitivity.py` | Simulated polygon-boundary perturbation analysis                                              |
 | `21`–`24` | β-VAE, EfficientNet, image-descriptor and cross-experiment figures                            |
-
-Use the provided splits when reviewing saved results; rerunning Script 01 overwrites them. New training runs create timestamped experiment folders and can change the run selected by subsequent analysis and figure scripts.
+| `25_run_cross_model_uncertainty.py` | Paired bootstrap intervals for C5, EfficientNet-B0 and RBF-SVM across all four evaluation splits |
+| `26_run_descriptor_ablation_uncertainty.py` | Paired bootstrap intervals for the selected C1–C5 comparisons under the stratified-random split |
+| `27_run_boundary_distance_analysis.py` | Compare boundary distances for correct C5 predictions and errors between all three adjacent class pairs |
+Use the provided splits when reviewing saved results; rerunning Script 01 overwrites them. New training runs create timestamped experiment folders 
+and can change the run selected by subsequent analysis and figure scripts.
+Scripts 25–26 use `configs/uncertainty.yaml` and saved test predictions to calculate exploratory image-level bootstrap confidence intervals. 
+Update the saved-run paths in this configuration when analyzing different experiments. 
+Script 27 also requires the annotation CSV and saved class boundaries. These analyses do not require model retraining. 
+Interval summaries are included in the release; individual bootstrap-resample scores are excluded and can be regenerated.
 
 ## Descriptor configurations
 

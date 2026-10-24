@@ -1,0 +1,123 @@
+classes: [Very Small, Small, Medium, Large]
+
+metrics: [accuracy, balanced_accuracy, macro_f1]
+metric_check_tolerance: 0.0000000001
+
+bootstrap:
+  resamples: 5000
+  confidence_level: 0.95
+  sampling_unit: image
+  replacement: true
+  stratify_by: true_class
+  sample_size: observed_class_counts
+  paired: true
+  interval_method: percentile
+  interval_sides: two_sided
+  quantile_method: linear
+  zero_division: 0
+
+columns:
+  test_split:
+    image: image_filename
+    reference_class: size_class
+
+  predictions:
+    reference_class: true_class
+    predicted_class: predicted_class
+
+splits:
+  stratified_random:
+    test_manifest: data/splits/test.csv
+    seed: 131
+  S1:
+    test_manifest: data/session_held_out_splits/S1/test.csv
+    seed: 132
+  S2:
+    test_manifest: data/session_held_out_splits/S2/test.csv
+    seed: 133
+  S3:
+    test_manifest: data/session_held_out_splits/S3/test.csv
+    seed: 134
+
+models:
+  spatial_beta_vae_c1:
+    image_column: image_path
+    prediction_file: test_predictions.csv
+    metrics_file: metrics_summary.json
+    directories:
+      stratified_random: experiments/run_20260915_135736/classifiers/C1
+  spatial_beta_vae_c2:
+    image_column: image_path
+    prediction_file: test_predictions.csv
+    metrics_file: metrics_summary.json
+    directories:
+      stratified_random: experiments/run_20260915_135736/classifiers/C2
+  spatial_beta_vae_c3:
+    image_column: image_path
+    prediction_file: test_predictions.csv
+    metrics_file: metrics_summary.json
+    directories:
+      stratified_random: experiments/run_20260915_135736/classifiers/C3
+  spatial_beta_vae_c4:
+    image_column: image_path
+    prediction_file: test_predictions.csv
+    metrics_file: metrics_summary.json
+    directories:
+      stratified_random: experiments/run_20260915_135736/classifiers/C4
+  spatial_beta_vae_c5:
+    image_column: image_path
+    prediction_file: test_predictions.csv
+    metrics_file: metrics_summary.json
+    directories:
+      stratified_random: experiments/run_20260915_135736/classifiers/C5
+      S1: experiments/session_held_out_beta_vae/run_20260922_094603/S1/classifiers/C5
+      S2: experiments/session_held_out_beta_vae/run_20260922_094603/S2/classifiers/C5
+      S3: experiments/session_held_out_beta_vae/run_20260922_094603/S3/classifiers/C5
+  efficientnet_b0:
+    image_column: image_filename
+    prediction_file: predictions/test_predictions.csv
+    metrics_file: metrics_summary.json
+    directories:
+      stratified_random: experiments/efficientnet_b0/run_20260921_111700/stratified_random
+      S1: experiments/efficientnet_b0/run_20260921_111700/S1
+      S2: experiments/efficientnet_b0/run_20260921_111700/S2
+      S3: experiments/efficientnet_b0/run_20260921_111700/S3
+  image_descriptors_rbf_svm:
+    image_column: image_filename
+    prediction_file: test_predictions.csv
+    metrics_file: metrics_summary.json
+    directories:
+      stratified_random: experiments/image_descriptor_classification/run_20260925_134404/stratified_random/rbf_svm/morphology_color_texture
+      S1: experiments/image_descriptor_classification/run_20260925_134404/S1/rbf_svm/morphology_color_texture
+      S2: experiments/image_descriptor_classification/run_20260925_134404/S2/rbf_svm/morphology_color_texture
+      S3: experiments/image_descriptor_classification/run_20260925_134404/S3/rbf_svm/morphology_color_texture
+
+analyses:
+  cross_model:
+    splits: [stratified_random, S1, S2, S3]
+    models: [spatial_beta_vae_c5, efficientnet_b0, image_descriptors_rbf_svm]
+    comparisons:
+      - [spatial_beta_vae_c5, efficientnet_b0]
+      - [spatial_beta_vae_c5, image_descriptors_rbf_svm]
+      - [efficientnet_b0, image_descriptors_rbf_svm]
+
+  descriptor_ablation:
+    splits: [stratified_random]
+    models: [spatial_beta_vae_c1, spatial_beta_vae_c2, spatial_beta_vae_c3, spatial_beta_vae_c4, spatial_beta_vae_c5]
+    comparisons:
+      - [spatial_beta_vae_c2, spatial_beta_vae_c1]
+      - [spatial_beta_vae_c3, spatial_beta_vae_c2]
+      - [spatial_beta_vae_c4, spatial_beta_vae_c2]
+      - [spatial_beta_vae_c4, spatial_beta_vae_c5]
+
+output:
+  directory: experiments/prediction_uncertainty
+  save_resamples: true
+  files:
+    settings: uncertainty_config_used.yaml
+    input_checks: input_checks.csv
+    model_intervals: model_intervals.csv
+    paired_differences: paired_differences.csv
+    resamples: bootstrap_scores.csv
+    summary: analysis_summary.json
+    log: uncertainty_log.txt

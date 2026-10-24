@@ -44,3 +44,11 @@
 /experiments/**/controls/shuffled_labels/shuffle_*/
 /experiments/**/features/*_features.csv
 /experiments/**/features/image_descriptors.csv
+
+# Additional analysis settings and logs
+!/configs/uncertainty.yaml
+!/experiments/prediction_uncertainty/**/uncertainty_config_used.yaml
+!/experiments/prediction_uncertainty/**/uncertainty_log.txt
+
+# Exclude regenerable bootstrap-resample scores
+/experiments/prediction_uncertainty/**/bootstrap_scores.csv

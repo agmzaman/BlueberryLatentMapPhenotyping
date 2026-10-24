@@ -1,0 +1,13 @@
+split,test_images,resamples,seed,nominal_confidence_level,interval_method,interpretation,first_model,second_model,metric,difference_percentage_points,lower_percentage_points,upper_percentage_points,zero_width_interval
+stratified_random,409,5000,131,0.95,percentile,exploratory_image_level_resampling,spatial_beta_vae_c2,spatial_beta_vae_c1,accuracy,8.557457212713937,3.6674816625916873,13.447432762836186,False
+stratified_random,409,5000,131,0.95,percentile,exploratory_image_level_resampling,spatial_beta_vae_c2,spatial_beta_vae_c1,balanced_accuracy,9.57347554406378,2.482746175393231,16.65070297349707,False
+stratified_random,409,5000,131,0.95,percentile,exploratory_image_level_resampling,spatial_beta_vae_c2,spatial_beta_vae_c1,macro_f1,10.28339538051446,4.199632149074637,16.63855991076129,False
+stratified_random,409,5000,131,0.95,percentile,exploratory_image_level_resampling,spatial_beta_vae_c3,spatial_beta_vae_c2,accuracy,1.9559902200488977,-1.4669926650366705,5.623471882640585,False
+stratified_random,409,5000,131,0.95,percentile,exploratory_image_level_resampling,spatial_beta_vae_c3,spatial_beta_vae_c2,balanced_accuracy,4.473281620340441,0.45164431157078067,9.094543201896135,False
+stratified_random,409,5000,131,0.95,percentile,exploratory_image_level_resampling,spatial_beta_vae_c3,spatial_beta_vae_c2,macro_f1,2.8535360007363786,-0.7722004771884722,7.0245691035707285,False
+stratified_random,409,5000,131,0.95,percentile,exploratory_image_level_resampling,spatial_beta_vae_c4,spatial_beta_vae_c2,accuracy,5.134474327628357,1.4669926650366705,8.801955990220044,False
+stratified_random,409,5000,131,0.95,percentile,exploratory_image_level_resampling,spatial_beta_vae_c4,spatial_beta_vae_c2,balanced_accuracy,7.2283451842275355,2.054106065503126,12.471139032536088,False
+stratified_random,409,5000,131,0.95,percentile,exploratory_image_level_resampling,spatial_beta_vae_c4,spatial_beta_vae_c2,macro_f1,6.164153143981399,2.001858958654137,10.57234209546695,False
+stratified_random,409,5000,131,0.95,percentile,exploratory_image_level_resampling,spatial_beta_vae_c4,spatial_beta_vae_c5,accuracy,0.4889975550122272,-2.200488997555017,3.184596577017035,False
+stratified_random,409,5000,131,0.95,percentile,exploratory_image_level_resampling,spatial_beta_vae_c4,spatial_beta_vae_c5,balanced_accuracy,0.7457983193277395,-2.7726042340012977,4.28687109459167,False
+stratified_random,409,5000,131,0.95,percentile,exploratory_image_level_resampling,spatial_beta_vae_c4,spatial_beta_vae_c5,macro_f1,0.7270060372942311,-2.2299180951943445,3.8013009628551546,False

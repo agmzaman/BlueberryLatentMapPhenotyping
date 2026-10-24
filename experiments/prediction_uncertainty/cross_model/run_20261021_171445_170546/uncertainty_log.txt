@@ -1,0 +1,14 @@
+Image-level paired bootstrap analysis of saved test predictions, stratified by reference class.
+Analysis: cross_model; resamples per split: 5000
+Paired differences are first model minus second model, in percentage points.
+Output: experiments/prediction_uncertainty/cross_model/run_20261021_171445_170546
+stratified_random: images=409; seed=131; class counts=[130, 170, 84, 25]
+Completed resampling: stratified_random
+S1: images=461; seed=132; class counts=[89, 168, 115, 89]
+Completed resampling: S1
+S2: images=529; seed=133; class counts=[192, 216, 92, 29]
+Completed resampling: S2
+S3: images=789; seed=134; class counts=[250, 368, 166, 5]
+Completed resampling: S3
+Saved 36 model intervals and 36 paired-difference intervals.
+Completed without training models or modifying input files.

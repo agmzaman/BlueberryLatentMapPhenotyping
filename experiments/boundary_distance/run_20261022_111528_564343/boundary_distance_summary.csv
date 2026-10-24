@@ -1,0 +1,19 @@
+class_pair,true_class,prediction_group,image_count,median_boundary_distance,boundary_relative_area
+Very Small - Small,Very Small,correct,98,0.080140093000,0.170401765000
+Very Small - Small,Very Small,very_small_to_small,30,0.034290786500,0.170401765000
+Very Small - Small,Very Small,other_error,2,0.066480729000,0.170401765000
+Very Small - Small,Small,correct,132,0.056718248500,0.170401765000
+Very Small - Small,Small,small_to_very_small,24,0.045964576500,0.170401765000
+Very Small - Small,Small,other_error,14,0.121788450000,0.170401765000
+Small - Medium,Small,correct,132,0.079363837500,0.306483851000
+Small - Medium,Small,small_to_medium,12,0.013262469500,0.306483851000
+Small - Medium,Small,other_error,26,0.087290092500,0.306483851000
+Small - Medium,Medium,correct,48,0.065220476000,0.306483851000
+Small - Medium,Medium,medium_to_small,28,0.027406983000,0.306483851000
+Small - Medium,Medium,other_error,8,0.032758189000,0.306483851000
+Medium - Large,Medium,correct,48,0.169003812000,0.540708139000
+Medium - Large,Medium,medium_to_large,5,0.083099112000,0.540708139000
+Medium - Large,Medium,other_error,31,0.208863470000,0.540708139000
+Medium - Large,Large,correct,21,0.233830110000,0.540708139000
+Medium - Large,Large,large_to_medium,3,0.064115130000,0.540708139000
+Medium - Large,Large,other_error,1,0.085031396000,0.540708139000

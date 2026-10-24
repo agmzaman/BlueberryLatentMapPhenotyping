@@ -1,0 +1,8 @@
+Image-level paired bootstrap analysis of saved test predictions, stratified by reference class.
+Analysis: descriptor_ablation; resamples per split: 5000
+Paired differences are first model minus second model, in percentage points.
+Output: experiments/prediction_uncertainty/descriptor_ablation/run_20261021_182614_771222
+stratified_random: images=409; seed=131; class counts=[130, 170, 84, 25]
+Completed resampling: stratified_random
+Saved 15 model intervals and 12 paired-difference intervals.
+Completed without training models or modifying input files.
